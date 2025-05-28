@@ -10,7 +10,7 @@ module.exports = {
     port: 3000, // This will still be used locally for proxying purposes
   };
 
-  
+
   
   // browser-sync start --config bs-config.js
   
