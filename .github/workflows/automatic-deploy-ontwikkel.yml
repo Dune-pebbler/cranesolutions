@@ -1,0 +1,31 @@
+name: FTP Deploy
+
+on:
+  push:
+    branches: [ main ]  # Change to your main branch name if different
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.ONTWIKKEL_SERVER }}
+          username: ${{ secrets.ONTWIKKEL_USERNAME }}
+          password: ${{ secrets.ONTWIKKEL_PASSWORD }}
+          local-dir: ./
+          server-dir:  ${{ secrets.ONTWIKKEL_SERVER_DIR }}
+          protocol: ftp  # Plain FTP 
+          port: 21 
+          security: loose 
+          timeout: 180000 
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            github-deploy-key
+            github-deploy-key.pub
+            .github/**

@@ -1,0 +1,39 @@
+name: Manual FTP Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Deployment environment'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+        - staging
+        - production
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.LIVE_SERVER }}
+          username: ${{ secrets.LIVE_USERNAME }}
+          password: ${{ secrets.LIVE_PASSWORD }}
+          local-dir: ./
+          server-dir:  ${{ secrets.LIVE_SERVER_DIR }}
+          protocol: ftp
+          port: 21
+          security: loose
+          timeout: 180000
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            github-deploy-key
+            github-deploy-key.pub
+            .github/**
