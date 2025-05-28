@@ -1,4 +1,4 @@
-name: FTP Deploy
+name: Automatic FTP Ontwikkel on push
 
 on:
   push:
