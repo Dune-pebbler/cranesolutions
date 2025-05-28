@@ -1,0 +1,23 @@
+
+.should-animate{ 
+    animation-duration: 2s; 
+
+    @for $i from 1 through 50 {
+        $amount: 0;
+
+        @if( $i * 100 > 1000){
+          $amount: #{1000 + ($i * 10)};
+        } 
+        @else {
+          $amount: #{$i * 100};
+        }
+        &:nth-child(#{$i}) {
+          animation-delay:#{$amount}ms;
+        }
+      }
+}
+.remove__animate{
+    -webkit-animation-name: hidden !important;
+    animation-name: hidden !important;
+    opacity: 0;
+}

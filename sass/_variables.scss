@@ -1,0 +1,53 @@
+// ----------------------- ROOT VARIABLES ----------------------- //
+:root {
+  --submenu-height-in-px: 322px;
+}
+// ----------------------- MAIN COLORS ----------------------- //
+
+$black: #000;
+$white: #fff;
+
+$bg-color: #ffffff;
+$text-color: #000;
+
+// REPLACE_WITH_COLORS
+$kleur1: #0059A8;
+$kleur2: #F49600;
+$kleur3: #3F9F9B;
+$kleur4: #1E181A;
+
+// ----------------------- SIZES ----------------------- //
+
+$screen-xs-max: 576px;
+$screen-sm-max: 768px;
+$screen-md-max: 992px;
+$screen-lg-max: 1199px;
+$screen-xl-max: 1340px;
+$screen-xxl-max: 1400px;
+
+// ----------------------- FONTS ----------------------- //
+
+$font: "Poppins", sans-serif;
+$h-font: "Poppins", sans-serif;
+
+
+/*@font-face {
+  font-family: 'font';
+  src: url("../fonts/font.eot");  IE9 Compat Modes 
+  src: url('../fonts/font.eot?#iefix') format('embedded-opentype'),  IE6-IE8 
+       url('../fonts/font.woff2') format('woff2'),  Super Modern Browsers 
+       url('../fonts/font.woff') format('woff'),  Pretty Modern Browsers 
+       url('../fonts/font.ttf')  format('truetype');  Safari, Android, iOS 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'font';
+  src: url("../fonts/font-bold.eot");  IE9 Compat Modes 
+  src: url('../fonts/font-bold.eot?#iefix') format('embedded-opentype'),  IE6-IE8 
+       url('../fonts/font-bold.woff2') format('woff2'),  Super Modern Browsers 
+       url('../fonts/font-bold.woff') format('woff'),  Pretty Modern Browsers 
+       url('../fonts/font-bold.ttf')  format('truetype');  Safari, Android, iOS 
+ font-weight: bold;
+}*/

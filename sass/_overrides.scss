@@ -1,0 +1,739 @@
+.single-post,
+.single-projects {
+  main {
+    section.banner {
+      &.no-image {
+        height: auto;
+        padding: 100px 0 350px;
+
+        @media (max-width: $screen-md-max) {
+          padding: 100px 0;
+        }
+      }
+
+      .subtitle {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        h3 {
+          font-size: 24px;
+          color: $white;
+        }
+
+        .tag {
+          background-color: $kleur2;
+          padding: 5px 10px;
+          border-radius: 15px;
+          color: #fff;
+          margin-left: 15px;
+          text-decoration: none;
+        }
+      }
+
+      .author {
+        margin-top: 60px;
+        p {
+          font-weight: bold;
+          font-size: 24px;
+
+          span,
+          a {
+            font-weight: normal;
+            text-decoration: none;
+            color: #fff;
+
+            img {
+              width: 50px;
+              margin-right: 10px;
+              margin-left: 25px;
+              border-radius: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    section.content-block {
+      .text-container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+.page-template-template-home {
+  main {
+    section.banner {
+      .text-container {
+        h1 {
+          font-size: 63px;
+
+          @media (max-width: $screen-lg-max) {
+            font-size: 40px;
+            line-height: 40px;
+          }
+
+          @media (max-width: $screen-xs-max) {
+            font-size: 30px;
+            line-height: 30px;
+          }
+        }
+
+        p {
+          @media (max-width: $screen-xs-max) {
+            font-size: 18px;
+            line-height: 27px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.page-template-template-werken-bij {
+  main {
+    section.content-block {
+      .text-container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+.tax-product_cat,
+.single-product {
+  main {
+    .banner {
+      height: auto !important;
+      padding: 0 0 25px 0;
+
+      .breadcrumbs {
+        position: relative;
+      }
+    }
+  }
+}
+
+.single-product {
+  main {
+    section.banner {
+      .background-image {
+        overflow: hidden;
+        position: absolute;
+        height: 85%;
+        width: 100%;
+        z-index: 10;
+        max-width: 1408px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        filter: grayscale(1);
+        opacity: 0.5;
+        mix-blend-mode: hard-light;
+
+        img {
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+.wp-block-media-text {
+  margin: 50px 0;
+
+  &.has-media-on-the-left {
+    .wp-block-media-text__content {
+      padding-right: 0;
+    }
+  }
+
+  &.has-media-on-the-right {
+    .wp-block-media-text__content {
+      padding-left: 0;
+    }
+  }
+
+  &.is-stacked-on-mobile {
+    .wp-block-media-text__content {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  figure {
+    height: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.gform_wrapper {
+  ~ .embed-container {
+    display: none;
+  }
+}
+
+.otgs-development-site-front-end {
+  display: none;
+}
+
+.wp-block-file {
+  background-color: #f2f2f2;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .wp-block-file__button {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+  a:not(.wp-block-file__button) {
+    font-size: 20px;
+    text-decoration: none;
+    color: $text-color;
+  }
+}
+
+.certificates-template-default {
+  main {
+    .banner {
+      .text-container {
+        .wrapped {
+          display: flex;
+          align-items: center;
+          gap: 25px;
+
+          .image {
+            width: 150px;
+            height: auto;
+
+            img {
+              display: block;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//new filters
+.woocommerce-shop {
+  background: #f3f3f3;
+  .filter-aside {
+    font-size: 18px;
+    padding-top: 00px;
+  }
+  #breadcrumbs {
+    font-size: 18px;
+
+    margin-top: calc(2rem + 16px);
+    .breadcrumb_last {
+      color: #f49600;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+    }
+  }
+}
+
+.woocommerce-shop .product-filters {
+  #filter-above-archive,
+  .product-archive {
+    font-size: 18px;
+    display: block;
+  }
+  #pills-container {
+    min-height: 40px;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    .filter-pill {
+      background-color: $kleur2;
+      border: 0px;
+      border-radius: 50px;
+      padding: 0px 14px;
+      color: white;
+      font-size: 16px;
+    }
+  }
+  #filter-button {
+    display: none;
+    @media (max-width: $screen-lg-max) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding:12px 16px;
+      width:100%;
+      background-color: $kleur1;
+      color:white;
+      border-radius: 4px;
+      margin-bottom: 16px;
+    }
+  }
+  .filter-group {
+    h3 {
+      color: black;
+      margin-bottom: 8px;
+    }
+    .custom-radio {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      flex-direction: column;
+      input[type="radio"] {
+        display: none;
+      }
+
+      label {
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+          text-decoration: none;
+          color: #0059a8;
+        }
+      }
+
+      input[type="radio"]:checked + label {
+        color: $kleur2;
+
+        &:hover {
+          color: #0056b3;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .filter-search-wrapper {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    @media (max-width: $screen-lg-max) {
+      row-gap: 10px;
+    }
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      input,
+      select {
+        height: 36px;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+    .result-container {
+      display: flex;
+      gap: 6px;
+    }
+  }
+}
+.woocommerce-shop .product-listing {
+  padding: 0 !important;
+}
+.woocommerce-shop .product-archive {
+  opacity: 1;
+  position: relative;
+
+  &.loading {
+    transition: opacity 1s ease-in-out;
+    opacity: 0.2;
+  }
+  .row,
+  .product {
+    overflow: auto;
+  }
+  .product {
+    a {
+      border: 1px solid rgb(224, 224, 224);
+    }
+  }
+}
+
+.woocommerce-shop .products-load-row {
+  position: relative;
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes prixClipFix {
+    0% {
+      clip-path: polygon(50% 50%, 0 0, 0 0, 0 0, 0 0, 0 0);
+    }
+    50% {
+      clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 0, 100% 0, 100% 0);
+    }
+    75%,
+    100% {
+      clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%);
+    }
+  }
+  &.loading {
+    .hide-when-loading {
+      transition: opacity 1.2s ease-in-out;
+      opacity: 0.1;
+    }
+
+    // Add overlay to prevent clicks
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      z-index: 99;
+      cursor: not-allowed;
+    }
+
+    .custom-loader {
+      position: absolute !important;
+      left: 50%;
+      top: 300px;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      position: relative;
+      animation: rotate 1s linear infinite;
+      z-index: 100;
+      &:before,
+      &:after {
+        content: "";
+        box-sizing: border-box;
+        position: absolute;
+        inset: 0px;
+        border-radius: 50%;
+        border: 5px solid white;
+        animation: prixClipFix 2s linear infinite;
+      }
+      &:after {
+        inset: 8px;
+        transform: rotate3d(90, 90, 0, 180deg);
+        border-color: #f49600;
+      }
+    }
+  }
+}
+//order shopping card {
+.woocommerce-cart {
+  .product-remove .remove {
+    color: red !important;
+    font-weight: 400 !important;
+    font-size: 32px !important;
+  }
+  table.shop_table {
+    border: 0px !important;
+  }
+  .product-price,
+  .product-subtotal {
+    display: none !important;
+  }
+  .product-thumbnail {
+    img {
+      width: auto !important;
+      object-fit: contain;
+      height: 164px !important;
+      padding: 8px !important;
+    }
+  }
+  section.text-field p {
+    line-height: 22px !important;
+    font-size: 16px !important;
+  }
+  .variation dt,
+  .variation dd {
+    margin-bottom: 6px !important;
+  }
+}
+
+.woocommerce .product-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  &.filter-aside {
+    @media (max-width: $screen-lg-max) {
+      top:106px;
+      left:0;
+      width:100%;
+      height:fit-content;
+      position: fixed;
+      height:100vh;
+      z-index: 9;
+      background-color: white;
+      overflow-y: scroll;
+      padding:24px;
+      display: none;
+    }
+  }
+}
+
+.woocommerce-cart-form {
+  .product-name > a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: bold;
+  }
+}
+.no-products {
+  font-size: 16px;
+  margin-top: 16px;
+}
+.shop-header {
+  #page-title {
+    color: black;
+  }
+}
+
+.certificates {
+  display: none !important;
+}
+
+// Add this to your _overrides.scss file
+
+// Custom radio styling for product filters
+.woocommerce-shop .product-filters {
+  .filter-group {
+    .custom-radio {
+      label {
+        position: relative;
+        padding-left: 30px; // Space for the checkbox/radio
+        line-height: 24px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+
+        // Remove padding for heading labels with remove-circle class
+        &.remove-circle,
+        &[for="cat-all"] {
+          padding-left: 0;
+        }
+      }
+
+      // Hide the styling for elements with remove-circle class
+      .remove-circle {
+        &:before,
+        &:after {
+          display: none !important;
+        }
+      }
+
+      // Style for category items (checkboxes)
+      input[name="category"] + label:not([for="cat-all"]) {
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 18px;
+          height: 18px;
+          border: 1px solid #ccc;
+          background-color: #fff;
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          left: 6px;
+          top: 50%;
+          transform: translateY(-65%) rotate(45deg);
+          width: 6px;
+          height: 12px;
+          border: solid transparent;
+          border-width: 0 2px 2px 0;
+          opacity: 0;
+          transition: opacity 0.2s;
+        }
+      }
+
+      // Style for brand items (radio buttons)
+      input[name="brand"] + label:not(.remove-circle) {
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 18px;
+          height: 18px;
+          border: 1px solid #ccc;
+          background-color: #fff;
+          border-radius: 50%; // Circle for radio buttons
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          left: 5px;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 8px;
+          height: 8px;
+          background-color: transparent;
+          border-radius: 50%; // Circle dot
+          opacity: 0;
+          transition: opacity 0.2s;
+        }
+      }
+
+      // Specialisaties (subcategories) styling - assuming they should be checkboxes
+      input[name="subcategory"] + label:not([for="subcat-all"]) {
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 18px;
+          height: 18px;
+          border: 1px solid #ccc;
+          background-color: #fff;
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          left: 6px;
+          top: 50%;
+          transform: translateY(-65%) rotate(45deg);
+          width: 6px;
+          height: 12px;
+          border: solid transparent;
+          border-width: 0 2px 2px 0;
+          opacity: 0;
+          transition: opacity 0.2s;
+        }
+      }
+
+      // Checked states
+      // For categories (checkboxes)
+      input[name="category"]:checked + label:not([for="cat-all"]):after {
+        opacity: 1;
+        border-color: $kleur2;
+      }
+
+      // For brands (radio buttons)
+      input[name="brand"]:checked + label:not(.remove-circle):after {
+        opacity: 1;
+        background-color: $kleur2;
+      }
+
+      // For subcategories (checkboxes)
+      input[name="subcategory"]:checked + label:not([for="subcat-all"]):after {
+        opacity: 1;
+        border-color: $kleur2;
+      }
+
+      // Hover states
+      input[name="category"] + label:not([for="cat-all"]):hover:before,
+      input[name="brand"] + label:not(.remove-circle):hover:before,
+      input[name="subcategory"] + label:not([for="subcat-all"]):hover:before {
+        border-color: $kleur2;
+      }
+    }
+  }
+}
+
+.woocommerce-cart-form {
+  th.product-name,
+  th.product-quantity {
+    font-size: 24px;
+  }
+  td.product-name {
+    a {
+      font-size: 18px;
+    }
+  }
+}
+
+.woocommerce-shop .product-filters {
+  .filter-group {
+    .custom-radio {
+      // Style for capacity items (radio buttons) - match the brand styling
+      input[name="capacity"] + label:not(.remove-circle) {
+        &:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 18px;
+          height: 18px;
+          border: 1px solid #ccc;
+          background-color: #fff;
+          border-radius: 50%; // Circle for radio buttons
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          left: 5px;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 8px;
+          height: 8px;
+          background-color: transparent;
+          border-radius: 50%; // Circle dot
+          opacity: 0;
+          transition: opacity 0.2s;
+        }
+      }
+
+      // Checked state for capacity
+      input[name="capacity"]:checked + label:not(.remove-circle):after {
+        opacity: 1;
+        background-color: $kleur2;
+      }
+
+      // Hover state for capacity
+      input[name="capacity"] + label:not(.remove-circle):hover:before {
+        border-color: $kleur2;
+      }
+    }
+  }
+}
+
+.woocommerce-message {
+  margin-bottom: 0 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+  &:after {
+    display: none;
+  }
+  &:before {
+    top: auto;
+  }
+}

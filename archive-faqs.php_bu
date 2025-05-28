@@ -1,0 +1,38 @@
+<?php
+ob_start();
+post_type_archive_title();
+$archive_title = ob_get_clean();
+
+get_header(); 
+
+
+?>
+
+<?= do_shortcode("[banner classes='no-image' title='{$archive_title}']"); ?>
+
+<section class="page-content">
+    <div class="backdrop">
+        <div class="top right">
+            <?= get_svg('images/arrows-up-backdrop.svg'); ?>
+        </div>
+    </div>
+
+    <?php if( have_posts() ): ?>
+    <section class="faq-categories">
+        <div class="container">
+            <div class="row">
+                <?php while( have_posts() ): the_post(); ?>
+                <div class="col-12">
+                    <div class="faq-category">
+                        <h2><?php the_title(); ?></h2>
+                        <?php the_content(); ?>
+                    </div>
+                </div>
+                <?php endwhile; wp_reset_postdata(); ?>
+            </div>
+        </div>
+    </section>
+    <?php endif; ?>
+</section>
+<?php get_template_part('template-parts/our', 'partners'); ?>
+<?php get_footer(); ?>
