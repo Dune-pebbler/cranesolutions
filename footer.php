@@ -20,7 +20,7 @@ $product_query = new WP_Query([
 ?>
 </main>
     <footer>
-      <section class="footer-shortcuts">
+      <section class="footer-shortcuts test-class">
         <div class="container">
           <div class="row">
             <div class="col-12 col-lg-10 offset-lg-1">
