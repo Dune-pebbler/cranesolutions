@@ -1,0 +1,67 @@
+ID,Type,SKU,Parent,Regular price,Attribute 1 name,Attribute 1 value(s),Attribute 1 visible,Attribute 1 global,Attribute 2 name,Attribute 2 value(s),Attribute 2 visible,Attribute 2 global,Attribute 3 name,Attribute 3 value(s),Attribute 3 visible,Attribute 3 global,Attribute 4 name,Attribute 4 value(s),Attribute 4 visible,Attribute 4 global,Attribute 5 name,Attribute 5 value(s),Attribute 5 visible,Attribute 5 global,Attribute 6 name,Attribute 6 value(s),Attribute 6 visible,Attribute 6 global
+,variable,htphtg-series,,,Artikelnummer,"192045613, 192045614, N05141273, N05141274, N05141275, N05141276, N05141277, N05148305, N05148306, N05148307, N05148308, N05148309, N5300006, N5300007, N5300008, N5300009, N5300010, N5300011, N5300012, N5300013, N5300014, N5300015, N5300016",1,0,Omschrijving,"HTG 1000, HTG 2000, HTG 3000, HTG 30000, HTG 500, HTG 5000, HTG 50000, HTG 8000, HTP 1000, HTP 2000, HTP 3000, HTP 500, HTP 5000",1,0,Capaciteit,"1000, 2000, 3000, 30000, 500, 5000, 50000, 8000",1,0,Balkbreedt,"125-310, 160-300, 175-305, 180-300, 50-220, 66-220, 74-220, 90-220",1,0,Gewicht,"117, 12, 12,8, 13, 14, 16, 18, 20,5, 21, 248, 25, 32, 40, 40,6, 45, 48, 489, 56, 59, 65, 8, 9",1,0,,,,
+,variable,unoplus-series,,,Artikelnummer,"192049841, 192049940, 192050025, 192050579, 192071115, 192071116, 192071117, 192071118, 192071119, 192071120, 192071121, 192071122",1,0,Omschrijving,Model UNOplus-A,1,0,Capaciteit,"1.500, 3.000, 6.000, 750",1,0,Hijshoogte,"1.5, 3.0, 6.0",1,0,Aantal parten,"1, 2",1,0,,,,
+,variable,itp-series,,,Artikelnummer,"N04900020, N04900044, N04900045, N04900046, N04900047, N04900055, N04900056, N04900057, N04900058, N04900059, N04900060, N04900061",1,0,Omschrijving,"YL ITG 1000, YL ITG 10000, YL ITG 2000, YL ITG 20000, YL ITG 3000, YL ITG 500, YL ITG 5000, YL ITP 1000, YL ITP 2000, YL ITP 3000, YL ITP 500, YL ITP 5000",1,0,Capaciteit,"1.000, 10.000, 2.000, 20.000, 3.000, 5.000, 500",1,0,Balkbreedte,"125-310, 180-310, 50-180, 58-180, 74-180, 98-180",1,0,Hijshoogte,3.0,1,0,Aantal parten,"1, 2, 3, 6",1,0
+,variable,ergo-series,,,Artikelnummer,"192028202, 192028204, 192028553, 192035451, 192039362, 192058102, 192058103, 192058104, 192058105, 192058106, 192058107, 192083509, 192083510, 192083511, 192083512",1,0,Omschrijving,"YaleERGO 360 1500, YaleERGO 360 3000, YaleERGO 360 6000, YaleERGO 360 750, YaleERGO 360 9000, YaleERGO360, YaleERGO361, YaleERGO362, YaleERGO363, YaleERGO364, YaleERGO365",1,0,Capaciteit,"1.500, 1500, 3.000, 6.000, 750, 9.000",1,0,Hijshoogte,"1.5, 3.0, 6.0",1,0,Aantal parten,"1, 2, 3",1,0,,,,
+,variation,htphtg-series-001,htphtg-series,0,Artikelnummer,N05141273,1,0,Omschrijving,HTP 500,1,0,Capaciteit,500,1,0,Balkbreedt,50-220,1,0,Gewicht,8,1,0,,,,
+,variation,htphtg-series-002,htphtg-series,0,Artikelnummer,N05141274,1,0,Omschrijving,HTP 1000,1,0,Capaciteit,1000,1,0,Balkbreedt,50-220,1,0,Gewicht,9,1,0,,,,
+,variation,htphtg-series-003,htphtg-series,0,Artikelnummer,N05141275,1,0,Omschrijving,HTP 2000,1,0,Capaciteit,2000,1,0,Balkbreedt,66-220,1,0,Gewicht,16,1,0,,,,
+,variation,htphtg-series-004,htphtg-series,0,Artikelnummer,N05141276,1,0,Omschrijving,HTP 3000,1,0,Capaciteit,3000,1,0,Balkbreedt,74-220,1,0,Gewicht,32,1,0,,,,
+,variation,htphtg-series-005,htphtg-series,0,Artikelnummer,N05141277,1,0,Omschrijving,HTP 5000,1,0,Capaciteit,5000,1,0,Balkbreedt,90-220,1,0,Gewicht,48,1,0,,,,
+,variation,htphtg-series-006,htphtg-series,0,Artikelnummer,N05148305,1,0,Omschrijving,HTP 500,1,0,Capaciteit,500,1,0,Balkbreedt,160-300,1,0,Gewicht,12,1,0,,,,
+,variation,htphtg-series-007,htphtg-series,0,Artikelnummer,N05148306,1,0,Omschrijving,HTP 1000,1,0,Capaciteit,1000,1,0,Balkbreedt,160-300,1,0,Gewicht,"12,8",1,0,,,,
+,variation,htphtg-series-008,htphtg-series,0,Artikelnummer,N05148307,1,0,Omschrijving,HTP 2000,1,0,Capaciteit,2000,1,0,Balkbreedt,160-300,1,0,Gewicht,"20,5",1,0,,,,
+,variation,htphtg-series-009,htphtg-series,0,Artikelnummer,N05148308,1,0,Omschrijving,HTP 3000,1,0,Capaciteit,3000,1,0,Balkbreedt,160-300,1,0,Gewicht,"40,6",1,0,,,,
+,variation,htphtg-series-010,htphtg-series,0,Artikelnummer,N05148309,1,0,Omschrijving,HTP 5000,1,0,Capaciteit,5000,1,0,Balkbreedt,160-300,1,0,Gewicht,59,1,0,,,,
+,variation,htphtg-series-011,htphtg-series,0,Artikelnummer,N5300006,1,0,Omschrijving,HTG 500,1,0,Capaciteit,500,1,0,Balkbreedt,50-220,1,0,Gewicht,13,1,0,,,,
+,variation,htphtg-series-012,htphtg-series,0,Artikelnummer,N5300007,1,0,Omschrijving,HTG 1000,1,0,Capaciteit,1000,1,0,Balkbreedt,50-220,1,0,Gewicht,14,1,0,,,,
+,variation,htphtg-series-013,htphtg-series,0,Artikelnummer,N5300008,1,0,Omschrijving,HTG 2000,1,0,Capaciteit,2000,1,0,Balkbreedt,66-220,1,0,Gewicht,21,1,0,,,,
+,variation,htphtg-series-014,htphtg-series,0,Artikelnummer,N5300009,1,0,Omschrijving,HTG 3000,1,0,Capaciteit,3000,1,0,Balkbreedt,74-220,1,0,Gewicht,40,1,0,,,,
+,variation,htphtg-series-015,htphtg-series,0,Artikelnummer,N5300010,1,0,Omschrijving,HTG 5000,1,0,Capaciteit,5000,1,0,Balkbreedt,90-220,1,0,Gewicht,56,1,0,,,,
+,variation,htphtg-series-016,htphtg-series,0,Artikelnummer,N5300011,1,0,Omschrijving,HTG 500,1,0,Capaciteit,500,1,0,Balkbreedt,160-300,1,0,Gewicht,16,1,0,,,,
+,variation,htphtg-series-017,htphtg-series,0,Artikelnummer,N5300012,1,0,Omschrijving,HTG 1000,1,0,Capaciteit,1000,1,0,Balkbreedt,160-300,1,0,Gewicht,18,1,0,,,,
+,variation,htphtg-series-018,htphtg-series,0,Artikelnummer,N5300013,1,0,Omschrijving,HTG 2000,1,0,Capaciteit,2000,1,0,Balkbreedt,160-300,1,0,Gewicht,25,1,0,,,,
+,variation,htphtg-series-019,htphtg-series,0,Artikelnummer,N5300014,1,0,Omschrijving,HTG 3000,1,0,Capaciteit,3000,1,0,Balkbreedt,160-300,1,0,Gewicht,45,1,0,,,,
+,variation,htphtg-series-020,htphtg-series,0,Artikelnummer,N5300015,1,0,Omschrijving,HTG 5000,1,0,Capaciteit,5000,1,0,Balkbreedt,180-300,1,0,Gewicht,65,1,0,,,,
+,variation,htphtg-series-021,htphtg-series,0,Artikelnummer,N5300016,1,0,Omschrijving,HTG 8000,1,0,Capaciteit,8000,1,0,Balkbreedt,125-310,1,0,Gewicht,117,1,0,,,,
+,variation,htphtg-series-022,htphtg-series,0,Artikelnummer,192045613,1,0,Omschrijving,HTG 30000,1,0,Capaciteit,30000,1,0,Balkbreedt,175-305,1,0,Gewicht,248,1,0,,,,
+,variation,htphtg-series-023,htphtg-series,0,Artikelnummer,192045614,1,0,Omschrijving,HTG 50000,1,0,Capaciteit,50000,1,0,Balkbreedt,175-305,1,0,Gewicht,489,1,0,,,,
+,variation,unoplus-series-001,unoplus-series,0,Artikelnummer,192049841,1,0,Omschrijving,Model UNOplus-A,1,0,Capaciteit,750,1,0,Hijshoogte,1.5,1,0,Aantal parten,1,1,0,,,,
+,variation,unoplus-series-002,unoplus-series,0,Artikelnummer,192049940,1,0,Omschrijving,Model UNOplus-A,1,0,Capaciteit,1.500,1,0,Hijshoogte,1.5,1,0,Aantal parten,1,1,0,,,,
+,variation,unoplus-series-003,unoplus-series,0,Artikelnummer,192050025,1,0,Omschrijving,Model UNOplus-A,1,0,Capaciteit,3.000,1,0,Hijshoogte,1.5,1,0,Aantal parten,1,1,0,,,,
+,variation,unoplus-series-004,unoplus-series,0,Artikelnummer,192050579,1,0,Omschrijving,Model UNOplus-A,1,0,Capaciteit,6.000,1,0,Hijshoogte,1.5,1,0,Aantal parten,2,1,0,,,,
+,variation,unoplus-series-005,unoplus-series,0,Artikelnummer,192071115,1,0,Omschrijving,Model UNOplus-A,1,0,Capaciteit,750,1,0,Hijshoogte,3.0,1,0,Aantal parten,1,1,0,,,,
+,variation,unoplus-series-006,unoplus-series,0,Artikelnummer,192071116,1,0,Omschrijving,Model UNOplus-A,1,0,Capaciteit,1.500,1,0,Hijshoogte,3.0,1,0,Aantal parten,1,1,0,,,,
+,variation,unoplus-series-007,unoplus-series,0,Artikelnummer,192071117,1,0,Omschrijving,Model UNOplus-A,1,0,Capaciteit,3.000,1,0,Hijshoogte,3.0,1,0,Aantal parten,1,1,0,,,,
+,variation,unoplus-series-008,unoplus-series,0,Artikelnummer,192071118,1,0,Omschrijving,Model UNOplus-A,1,0,Capaciteit,6.000,1,0,Hijshoogte,3.0,1,0,Aantal parten,2,1,0,,,,
+,variation,unoplus-series-009,unoplus-series,0,Artikelnummer,192071119,1,0,Omschrijving,Model UNOplus-A,1,0,Capaciteit,750,1,0,Hijshoogte,6.0,1,0,Aantal parten,1,1,0,,,,
+,variation,unoplus-series-010,unoplus-series,0,Artikelnummer,192071120,1,0,Omschrijving,Model UNOplus-A,1,0,Capaciteit,1.500,1,0,Hijshoogte,6.0,1,0,Aantal parten,1,1,0,,,,
+,variation,unoplus-series-011,unoplus-series,0,Artikelnummer,192071121,1,0,Omschrijving,Model UNOplus-A,1,0,Capaciteit,3.000,1,0,Hijshoogte,6.0,1,0,Aantal parten,1,1,0,,,,
+,variation,unoplus-series-012,unoplus-series,0,Artikelnummer,192071122,1,0,Omschrijving,Model UNOplus-A,1,0,Capaciteit,6.000,1,0,Hijshoogte,6.0,1,0,Aantal parten,2,1,0,,,,
+,variation,itp-series-001,itp-series,0,Artikelnummer,N04900044,1,0,Omschrijving,YL ITP 500,1,0,Capaciteit,500,1,0,Balkbreedte,50-180,1,0,Hijshoogte,3.0,1,0,Aantal parten,1,1,0
+,variation,itp-series-002,itp-series,0,Artikelnummer,N04900045,1,0,Omschrijving,YL ITP 1000,1,0,Capaciteit,1.000,1,0,Balkbreedte,50-180,1,0,Hijshoogte,3.0,1,0,Aantal parten,1,1,0
+,variation,itp-series-003,itp-series,0,Artikelnummer,N04900046,1,0,Omschrijving,YL ITP 2000,1,0,Capaciteit,2.000,1,0,Balkbreedte,58-180,1,0,Hijshoogte,3.0,1,0,Aantal parten,1,1,0
+,variation,itp-series-004,itp-series,0,Artikelnummer,N04900047,1,0,Omschrijving,YL ITP 3000,1,0,Capaciteit,3.000,1,0,Balkbreedte,74-180,1,0,Hijshoogte,3.0,1,0,Aantal parten,1,1,0
+,variation,itp-series-005,itp-series,0,Artikelnummer,N04900020,1,0,Omschrijving,YL ITP 5000,1,0,Capaciteit,5.000,1,0,Balkbreedte,98-180,1,0,Hijshoogte,3.0,1,0,Aantal parten,2,1,0
+,variation,itp-series-006,itp-series,0,Artikelnummer,N04900056,1,0,Omschrijving,YL ITG 500,1,0,Capaciteit,500,1,0,Balkbreedte,50-180,1,0,Hijshoogte,3.0,1,0,Aantal parten,1,1,0
+,variation,itp-series-007,itp-series,0,Artikelnummer,N04900057,1,0,Omschrijving,YL ITG 1000,1,0,Capaciteit,1.000,1,0,Balkbreedte,50-180,1,0,Hijshoogte,3.0,1,0,Aantal parten,1,1,0
+,variation,itp-series-008,itp-series,0,Artikelnummer,N04900058,1,0,Omschrijving,YL ITG 2000,1,0,Capaciteit,2.000,1,0,Balkbreedte,58-180,1,0,Hijshoogte,3.0,1,0,Aantal parten,1,1,0
+,variation,itp-series-009,itp-series,0,Artikelnummer,N04900059,1,0,Omschrijving,YL ITG 3000,1,0,Capaciteit,3.000,1,0,Balkbreedte,74-180,1,0,Hijshoogte,3.0,1,0,Aantal parten,1,1,0
+,variation,itp-series-010,itp-series,0,Artikelnummer,N04900060,1,0,Omschrijving,YL ITG 5000,1,0,Capaciteit,5.000,1,0,Balkbreedte,98-180,1,0,Hijshoogte,3.0,1,0,Aantal parten,2,1,0
+,variation,itp-series-011,itp-series,0,Artikelnummer,N04900061,1,0,Omschrijving,YL ITG 10000,1,0,Capaciteit,10.000,1,0,Balkbreedte,125-310,1,0,Hijshoogte,3.0,1,0,Aantal parten,3,1,0
+,variation,itp-series-012,itp-series,0,Artikelnummer,N04900055,1,0,Omschrijving,YL ITG 20000,1,0,Capaciteit,20.000,1,0,Balkbreedte,180-310,1,0,Hijshoogte,3.0,1,0,Aantal parten,6,1,0
+,variation,ergo-series-001,ergo-series,0,Artikelnummer,192028202,1,0,Omschrijving,YaleERGO 360 1500,1,0,Capaciteit,1500,1,0,Hijshoogte,1.5,1,0,Aantal parten,1,1,0,,,,
+,variation,ergo-series-002,ergo-series,0,Artikelnummer,192028204,1,0,Omschrijving,YaleERGO 360 750,1,0,Capaciteit,750,1,0,Hijshoogte,1.5,1,0,Aantal parten,1,1,0,,,,
+,variation,ergo-series-003,ergo-series,0,Artikelnummer,192028553,1,0,Omschrijving,YaleERGO 360 3000,1,0,Capaciteit,3.000,1,0,Hijshoogte,1.5,1,0,Aantal parten,1,1,0,,,,
+,variation,ergo-series-004,ergo-series,0,Artikelnummer,192035451,1,0,Omschrijving,YaleERGO 360 6000,1,0,Capaciteit,6.000,1,0,Hijshoogte,1.5,1,0,Aantal parten,2,1,0,,,,
+,variation,ergo-series-005,ergo-series,0,Artikelnummer,192039362,1,0,Omschrijving,YaleERGO 360 9000,1,0,Capaciteit,9.000,1,0,Hijshoogte,1.5,1,0,Aantal parten,3,1,0,,,,
+,variation,ergo-series-006,ergo-series,0,Artikelnummer,192058102,1,0,Omschrijving,YaleERGO360,1,0,Capaciteit,750,1,0,Hijshoogte,3.0,1,0,Aantal parten,1,1,0,,,,
+,variation,ergo-series-007,ergo-series,0,Artikelnummer,192058103,1,0,Omschrijving,YaleERGO360,1,0,Capaciteit,750,1,0,Hijshoogte,6.0,1,0,Aantal parten,1,1,0,,,,
+,variation,ergo-series-008,ergo-series,0,Artikelnummer,192058104,1,0,Omschrijving,YaleERGO360,1,0,Capaciteit,1.500,1,0,Hijshoogte,3.0,1,0,Aantal parten,1,1,0,,,,
+,variation,ergo-series-009,ergo-series,0,Artikelnummer,192058105,1,0,Omschrijving,YaleERGO361,1,0,Capaciteit,1.500,1,0,Hijshoogte,6.0,1,0,Aantal parten,1,1,0,,,,
+,variation,ergo-series-010,ergo-series,0,Artikelnummer,192058106,1,0,Omschrijving,YaleERGO362,1,0,Capaciteit,3.000,1,0,Hijshoogte,3.0,1,0,Aantal parten,1,1,0,,,,
+,variation,ergo-series-011,ergo-series,0,Artikelnummer,192058107,1,0,Omschrijving,YaleERGO363,1,0,Capaciteit,3.000,1,0,Hijshoogte,6.0,1,0,Aantal parten,1,1,0,,,,
+,variation,ergo-series-012,ergo-series,0,Artikelnummer,192083509,1,0,Omschrijving,YaleERGO364,1,0,Capaciteit,6.000,1,0,Hijshoogte,3.0,1,0,Aantal parten,2,1,0,,,,
+,variation,ergo-series-013,ergo-series,0,Artikelnummer,192083510,1,0,Omschrijving,YaleERGO365,1,0,Capaciteit,9.000,1,0,Hijshoogte,3.0,1,0,Aantal parten,3,1,0,,,,
+,variation,ergo-series-014,ergo-series,0,Artikelnummer,192083511,1,0,Omschrijving,YaleERGO360,1,0,Capaciteit,6.000,1,0,Hijshoogte,6.0,1,0,Aantal parten,2,1,0,,,,
+,variation,ergo-series-015,ergo-series,0,Artikelnummer,192083512,1,0,Omschrijving,YaleERGO360,1,0,Capaciteit,9.000,1,0,Hijshoogte,6.0,1,0,Aantal parten,3,1,0,,,,

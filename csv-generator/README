@@ -1,0 +1,64 @@
+# WooCommerce Variable Product Updater
+
+Python script om bestaande WooCommerce producten te updaten met attributen en variaties vanuit CSV bestanden.
+
+## Voorbereiding in WooCommerce
+
+Voor elk product dat je wilt updaten:
+1. **Edit het product**
+2. **Zet Product Type op "Variable product"**
+3. **Geef het product een unieke SKU** (bijvoorbeeld: `YALE-ERGO-MAIN`, `SH-30-SERIES`)
+4. **Save het product**
+
+## Script gebruiken
+
+### 1. Start het script
+```bash
+python3 csv_to_woo.py
+```
+
+### 2. Voeg producten toe
+```
+--- Product 1 ---
+Enter CSV file path: sh30.xlsx  Blad1.csv
+Enter the parent product SKU: SH-30-SERIES
+
+--- Product 2 ---  
+Enter CSV file path: YaleERGO.csv
+Enter the parent product SKU: YALE-ERGO-MAIN
+
+--- Product 3 ---
+Enter CSV file path: [Enter = klaar]
+```
+
+Script genereert: `woocommerce_multiple_update.csv`
+
+## Importeren in WooCommerce
+
+### Import 1: Attributen toevoegen
+1. **WooCommerce → Products → Import**
+2. **Upload:** `woocommerce_multiple_update.csv`
+3. **✅ Check:** "Update existing products" 
+4. **Import**
+
+### Import 2: Variaties aanmaken
+1. **WooCommerce → Products → Import**  
+2. **Upload:** dezelfde `woocommerce_multiple_update.csv`
+3. **❌ Uncheck:** "Update existing products"
+4. **Import**
+
+## CSV Bestanden
+
+Het script werkt met **elke** CSV structuur - detecteert automatisch alle kolommen:
+
+```csv
+Type,Capaciteit (kg),Snelheid (m/min),Parten
+SH 3005-25,500,4.1/25,1/1
+```
+
+```csv
+Artikelnummer,Omschrijving,Capaciteit,Hijshoogte
+192028202,YaleERGO 360,1500,1.5
+```
+
+Alle kolommen worden automatisch attributen, variaties krijgen €0 prijs zodat ze besteld kunnen worden.

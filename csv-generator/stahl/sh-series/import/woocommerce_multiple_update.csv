@@ -1,0 +1,228 @@
+ID,Type,SKU,Parent,Regular price,Attribute 1 name,Attribute 1 value(s),Attribute 1 visible,Attribute 1 global,Attribute 2 name,Attribute 2 value(s),Attribute 2 visible,Attribute 2 global,Attribute 3 name,Attribute 3 value(s),Attribute 3 visible,Attribute 3 global,Attribute 4 name,Attribute 4 value(s),Attribute 4 visible,Attribute 4 global
+,variable,sh30-series,,,Type,"SH 3005-25 1/1 *2, SH 3005-25 2/1, SH 3005-25 2/2-1 *2, SH 3005-25 2/2-2, SH 3005-25 4/1, SH 3005-25 4/2-1, SH 3005-25 4/2-2, SH 3005-40 2/1, SH 3005-40 4/1, SH 3005-40 4/2-1, SH 3005-40 4/2-2, SH 3006-25 1/1 *2, SH 3006-25 2/1, SH 3006-25 2/2-1 *2, SH 3006-25 2/2-2, SH 3006-25 4/1, SH 3006-25 4/2-1, SH 3006-25 4/2-2, SH 3006-40 2/1, SH 3006-40 4/1, SH 3006-40 4/2-1, SH 3008-20 1/1 *2, SH 3008-20 2/1, SH 3008-20 2/2-1 *2, SH 3008-20 2/2-2, SH 3008-20 4/1, SH 3008-20 4/2-1, SH 3008-20 4/2-2, SH 3008-32 2/1, SH 3008-32 4/1, SH 3008-32 4/2-1, SH 3008-32 4/2-2, SH 4010-20 2/2-1 *2",1,0,Capaciteit (kg),"1.000, 1.250, 1.600, 2.000, 2.500, 2x 250, 2x 320, 2x 500, 2x 630, 2x 800, 2x400, 3.200, 500, 630, 800",1,0,Snelheid (m/min),"0,8/5, 1,3/8, 1,6/10, 1/6,3, 2,6/16, 2/12,5, 3,3/20, 4,1/25",1,0,Parten,"1/1, 2/1, 2/2-1, 2/2-2, 4/1, 4/2-1, 4/2-2",1,0
+,variable,sh40-series,,,Type,"SH 4008-20 1/1 *2, SH 4008-20 2/2-1 *2, SH 4008-20 2/2-2, SH 4008-25 2/1, SH 4008-25 4/1, SH 4008-25 4/2-1, SH 4008-25 4/2-2, SH 4008-40 2/1 *3, SH 4008-40 4/1, SH 4008-40 4/2-1, SH 4008-40 4/2-2, SH 4010-20 1/1 *2, SH 4010-20 2/2-1 *2, SH 4010-20 2/2-2, SH 4010-25 2/1, SH 4010-25 4/1, SH 4010-25 4/2-1, SH 4010-25 4/2-2, SH 4010-40 2/1 *3, SH 4010-40 4/1, SH 4010-40 4/2-1, SH 4010-40 4/2-2, SH 4012-20 1/1 *2, SH 4012-20 2/1, SH 4012-20 2/2-1 *2, SH 4012-20 2/2-2, SH 4012-20 4/1, SH 4012-20 4/2-1, SH 4012-20 4/2-2, SH 4012-32 2/1 *3, SH 4012-32 4/1, SH 4012-32 4/2-1, SH 4012-32 4/2-2, SH 4016-16 1/1 *2,3, SH 4016-16 2/1, SH 4016-16 2/2-1 *2, SH 4016-16 2/2-2, SH 4016-16 4/1, SH 4016-16 4/2-1, SH 4016-16 4/2-2, SH 4016-25 2/1 *3, SH 4016-25 4/1, SH 4016-25 4/2-1, SH 4016-25 4/2-2",1,0,Capaciteit (kg),"1000, 1250, 1600, 2.500, 2000, 2500, 2x 1000, 2x 1250, 2x 1600, 2x 400, 2x 500, 2x 630, 2x 800, 3200, 4000, 5000, 6300, 800",1,0,Snelheid (m/min),"0,6/4, 0,8/5, 1,3/8, 1,6/10, 1/6,3, 2,6/16, 2/12,5, 3,3/20",1,0,Parten,"1/1 *2, 1/1 *2,3, 2/1, 2/1 *3, 2/12,5, 2/2-1 *2, 2/2-2, 4/1, 4/2-1, 4/2-2",1,0
+,variable,sh50-series,,,Type,"SH 5016-20 1/1 *2,3, SH 5016-20 2/2-1 *2, SH 5016-20 2/2-2, SH 5016-25 2/1, SH 5016-25 4/1, SH 5016-25 4/2-1, SH 5016-25 4/2-2, SH 5016-40 2/1 *3, SH 5016-40 4/1, SH 5016-40 4/2-1, SH 5016-40 4/2-2, SH 5020-20 1/1 *2,3, SH 5020-20 2/2-1 *2, SH 5020-20 2/2-2, SH 5020-25 2/1, SH 5020-25 4/1, SH 5020-25 4/2-1, SH 5020-25 4/2-2, SH 5020-40 2/1 *3, SH 5020-40 4/1, SH 5020-40 4/2-1, SH 5020-40 4/2-2, SH 5025-20 1/1 *2,3, SH 5025-20 2/1, SH 5025-20 2/2-1 *2, SH 5025-20 2/2-2, SH 5025-20 4/1, SH 5025-20 4/2-1, SH 5025-20 4/2-2, SH 5025-32 2/1 *3, SH 5025-32 4/1, SH 5025-32 4/2-1, SH 5025-32 4/2-2, SH 5032-16 1/1 *2,3, SH 5032-16 2/2-1 *2, SH 5032-16 2/2-2, SH 5032-25 2/1, SH 5032-25 4/1, SH 5032-25 4/2-1, SH 5032-25 4/2-2",1,0,Capaciteit (kg),"10000, 12500, 1600, 2.000, 2.500, 2000, 2500, 2x 1000, 2x 1250, 2x 1600, 2x 2000, 2x 2500, 2x 3200, 2x 800, 3200, 4000, 5000, 6300, 8000",1,0,Snelheid (m/min),"0,8/5, 1,3/8, 1,6/10, 1/6,3, 2,6/16, 2/12,5, 3,3/20",1,0,Parten,"1/1 *2,3, 2/1, 2/1 *3, 2/2-1 *2, 2/2-2, 4/1, 4/2-1, 4/2-2",1,0
+,variable,sh60-series,,,Type,"SH 6025-20 2/2-2, SH 6025-20 4/2-1, SH 6025-20 4/2-2, SH 6025-32 4/2-1, SH 6025-32 4/2-2, SH 6025-40 4/2-1, SH 6025-40 4/2-2, SH 6032-16 2/2-2, SH 6032-16 4/2-1, SH 6032-16 4/2-2, SH 6032-25 2/2-2, SH 6032-25 4/2-1, SH 6032-25 4/2-2, SH 6032-40 4/2-1, SH 6032-40 4/2-2, SH 6040-12 1/1, SH 6040-12 2/1, SH 6040-12 2/2-1, SH 6040-12 2/2-2, SH 6040-12 4/1 *2, SH 6040-12 4/2-1, SH 6040-12 4/2-2, SH 6040-12 8/2-1, SH 6040-20 1/1 *3, SH 6040-20 2/1, SH 6040-20 2/2-1, SH 6040-20 2/2-2, SH 6040-20 4/1 *2, SH 6040-20 4/2-1, SH 6040-20 4/2-2, SH 6040-20 8/2-1, SH 6040-32 2/1 *3, SH 6040-32 4/1 *2, SH 6040-32 4/2-1, SH 6040-32 4/2-2, SH 6040-32 8/2-1, SH 6050-16 1/1 *3, SH 6050-16 2/1, SH 6050-16 2/2-1, SH 6050-16 2/2-2, SH 6050-16 4/1 *2, SH 6050-16 4/2-1, SH 6050-16 4/2-2, SH 6050-16 8/2-1, SH 6050-20 1/1 *3, SH 6050-20 2/2-1, SH 6050-20 2/2-2, SH 6050-25 2/1, SH 6050-25 4/1 *2, SH 6050-25 4/2-1, SH 6050-25 4/2-2, SH 6050-25 8/2-1, SH 6050-32 2/1 *3, SH 6050-32 4/1 *2, SH 6050-32 4/2-1, SH 6050-32 8/2-1, SH 6050-40 2/1 *3, SH 6050-40 4/1 *2, SH 6050-40 4/2-1, SH 6050-40 8/2-1, SH 6063-12 1/1, SH 6063-12 2/1, SH 6063-12 2/2-1, SH 6063-12 2/2-2, SH 6063-12 4/1 *2, SH 6063-12 4/2-1, SH 6063-12 4/2-2, SH 6063-12 8/2-1, SH 6063-20 1/1 *3, SH 6063-20 2/1, SH 6063-20 2/2-1, SH 6063-20 2/2-2, SH 6063-20 4/1 *2, SH 6063-20 4/2-1, SH 6063-20 4/2-2, SH 6063-20 8/2-1, SH 6063-25 2/1, SH 6063-25 4/1 *2, SH 6063-25 4/2-1, SH 6063-25 8/2-1, SH 6063-32 2/1 *3, SH 6063-32 4/1 *2, SH 6063-32 4/2-1, SH 6063-32 8/2-1, SH 6080-10 4/1, SH 6080-16 4/1, SH 6080-20 4/1, SHR 6025-20 2/1, SHR 6025-20 4/1, SHR 6025-32 2/1 *3, SHR 6025-32 4/1, SHR 6025-40 2/1 *3, SHR 6025-40 4/1, SHR 6032-16 2/1, SHR 6032-16 4/1, SHR 6032-25 2/1, SHR 6032-25 4/1, SHR 6032-40 2/1 *3, SHR 6032-40 4/1, SHR 6040-12 2/1, SHR 6040-12 4/1, SHR 6040-20 2/1, SHR 6040-20 4/1, SHR 6040-32 2/1 *3, SHR 6040-32 4/1",1,0,Capaciteit (kg),"10.000, 12.500, 16.000, 20.000, 25.000, 2x 1250, 2x 1600, 2x 2.500, 2x 2000, 2x 3.200, 2x 4.000, 2x 5.000, 2x 6.300, 32.000, 4.000, 4000, 5.000, 5000, 6.300, 8.000",1,0,Snelheid (m/min),"0,4/2,5, 0,5/3,1, 0,6/4, 0,8/5, 1,3/8, 1,6/10, 1/6,3, 2,6/16, 2/12,5, 3,3/20, 4,1/25",1,0,Parten,"1/1, 2/1, 2/2-1, 2/2-2, 4/1, 4/2-1, 4/2-2, 8/2-1",1,0
+,variation,sh30-series-001,sh30-series,0,Type,SH 3005-25 1/1 *2,1,0,Capaciteit (kg),500,1,0,Snelheid (m/min),"4,1/25",1,0,Parten,1/1,1,0
+,variation,sh30-series-002,sh30-series,0,Type,SH 3006-25 1/1 *2,1,0,Capaciteit (kg),630,1,0,Snelheid (m/min),"4,1/25",1,0,Parten,1/1,1,0
+,variation,sh30-series-003,sh30-series,0,Type,SH 3008-20 1/1 *2,1,0,Capaciteit (kg),800,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,1/1,1,0
+,variation,sh30-series-004,sh30-series,0,Type,SH 3005-25 2/1,1,0,Capaciteit (kg),1.000,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,2/1,1,0
+,variation,sh30-series-005,sh30-series,0,Type,SH 3005-40 2/1,1,0,Capaciteit (kg),1.000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/1,1,0
+,variation,sh30-series-006,sh30-series,0,Type,SH 3006-25 2/1,1,0,Capaciteit (kg),1.250,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,2/1,1,0
+,variation,sh30-series-007,sh30-series,0,Type,SH 3006-40 2/1,1,0,Capaciteit (kg),1.250,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/1,1,0
+,variation,sh30-series-008,sh30-series,0,Type,SH 3006-40 2/1,1,0,Capaciteit (kg),1.250,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/1,1,0
+,variation,sh30-series-009,sh30-series,0,Type,SH 3008-20 2/1,1,0,Capaciteit (kg),1.600,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,2/1,1,0
+,variation,sh30-series-010,sh30-series,0,Type,SH 3008-32 2/1,1,0,Capaciteit (kg),1.600,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/1,1,0
+,variation,sh30-series-011,sh30-series,0,Type,SH 3005-25 4/1,1,0,Capaciteit (kg),2.000,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/1,1,0
+,variation,sh30-series-012,sh30-series,0,Type,SH 3005-40 4/1,1,0,Capaciteit (kg),2.000,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/1,1,0
+,variation,sh30-series-013,sh30-series,0,Type,SH 3006-25 4/1,1,0,Capaciteit (kg),2.500,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/1,1,0
+,variation,sh30-series-014,sh30-series,0,Type,SH 3006-40 4/1,1,0,Capaciteit (kg),2.500,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/1,1,0
+,variation,sh30-series-015,sh30-series,0,Type,SH 3008-20 4/1,1,0,Capaciteit (kg),3.200,1,0,Snelheid (m/min),"0,8/5",1,0,Parten,4/1,1,0
+,variation,sh30-series-016,sh30-series,0,Type,SH 3008-32 4/1,1,0,Capaciteit (kg),3.200,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,4/1,1,0
+,variation,sh30-series-017,sh30-series,0,Type,SH 3005-25 2/2-1 *2,1,0,Capaciteit (kg),500,1,0,Snelheid (m/min),"4,1/25",1,0,Parten,2/2-1,1,0
+,variation,sh30-series-018,sh30-series,0,Type,SH 3006-25 2/2-1 *2,1,0,Capaciteit (kg),630,1,0,Snelheid (m/min),"4,1/25",1,0,Parten,2/2-1,1,0
+,variation,sh30-series-019,sh30-series,0,Type,SH 3008-20 2/2-1 *2,1,0,Capaciteit (kg),800,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-1,1,0
+,variation,sh30-series-020,sh30-series,0,Type,SH 3005-25 4/2-1,1,0,Capaciteit (kg),1.000,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-1,1,0
+,variation,sh30-series-021,sh30-series,0,Type,SH 3005-40 4/2-1,1,0,Capaciteit (kg),1.000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-1,1,0
+,variation,sh30-series-022,sh30-series,0,Type,SH 4010-20 2/2-1 *2,1,0,Capaciteit (kg),1.000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-1,1,0
+,variation,sh30-series-023,sh30-series,0,Type,SH 3006-25 4/2-1,1,0,Capaciteit (kg),1.250,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-1,1,0
+,variation,sh30-series-024,sh30-series,0,Type,SH 3006-40 4/2-1,1,0,Capaciteit (kg),1.250,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-1,1,0
+,variation,sh30-series-025,sh30-series,0,Type,SH 3008-20 4/2-1,1,0,Capaciteit (kg),1.600,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/2-1,1,0
+,variation,sh30-series-026,sh30-series,0,Type,SH 3008-32 4/2-1,1,0,Capaciteit (kg),1.600,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,4/2-1,1,0
+,variation,sh30-series-027,sh30-series,0,Type,SH 3005-25 2/2-2,1,0,Capaciteit (kg),2x 250,1,0,Snelheid (m/min),"4,1/25",1,0,Parten,2/2-2,1,0
+,variation,sh30-series-028,sh30-series,0,Type,SH 3006-25 2/2-2,1,0,Capaciteit (kg),2x 320,1,0,Snelheid (m/min),"4,1/25",1,0,Parten,2/2-2,1,0
+,variation,sh30-series-029,sh30-series,0,Type,SH 3008-20 2/2-2,1,0,Capaciteit (kg),2x400,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-2,1,0
+,variation,sh30-series-030,sh30-series,0,Type,SH 3005-25 4/2-2,1,0,Capaciteit (kg),2x 500,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-2,1,0
+,variation,sh30-series-031,sh30-series,0,Type,SH 3005-40 4/2-2,1,0,Capaciteit (kg),2x 500,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-2,1,0
+,variation,sh30-series-032,sh30-series,0,Type,SH 3006-25 4/2-2,1,0,Capaciteit (kg),2x 630,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-2,1,0
+,variation,sh30-series-033,sh30-series,0,Type,SH 3008-20 4/2-2,1,0,Capaciteit (kg),2x 800,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/2-2,1,0
+,variation,sh30-series-034,sh30-series,0,Type,SH 3008-32 4/2-2,1,0,Capaciteit (kg),2x 800,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,4/2-2,1,0
+,variation,sh40-series-001,sh40-series,0,Type,SH 4008-20 1/1 *2,1,0,Capaciteit (kg),800,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,1/1 *2,1,0
+,variation,sh40-series-002,sh40-series,0,Type,SH 4010-20 1/1 *2,1,0,Capaciteit (kg),1000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,1/1 *2,1,0
+,variation,sh40-series-003,sh40-series,0,Type,SH 4012-20 1/1 *2,1,0,Capaciteit (kg),1250,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,1/1 *2,1,0
+,variation,sh40-series-004,sh40-series,0,Type,SH 4008-25 2/1,1,0,Capaciteit (kg),1600,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,2/1,1,0
+,variation,sh40-series-005,sh40-series,0,Type,SH 4008-40 2/1 *3,1,0,Capaciteit (kg),1600,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/1 *3,1,0
+,variation,sh40-series-006,sh40-series,0,Type,"SH 4016-16 1/1 *2,3",1,0,Capaciteit (kg),1600,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,"1/1 *2,3",1,0
+,variation,sh40-series-007,sh40-series,0,Type,SH 4010-25 2/1,1,0,Capaciteit (kg),2000,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,"2/12,5",1,0
+,variation,sh40-series-008,sh40-series,0,Type,SH 4010-40 2/1 *3,1,0,Capaciteit (kg),2000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/1 *3,1,0
+,variation,sh40-series-009,sh40-series,0,Type,SH 4012-20 2/1,1,0,Capaciteit (kg),2.500,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,2/1,1,0
+,variation,sh40-series-010,sh40-series,0,Type,SH 4012-32 2/1 *3,1,0,Capaciteit (kg),2.500,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/1 *3,1,0
+,variation,sh40-series-011,sh40-series,0,Type,SH 4008-25 4/1,1,0,Capaciteit (kg),3200,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/1,1,0
+,variation,sh40-series-012,sh40-series,0,Type,SH 4008-40 4/1,1,0,Capaciteit (kg),3200,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/1,1,0
+,variation,sh40-series-013,sh40-series,0,Type,SH 4016-16 2/1,1,0,Capaciteit (kg),3200,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,2/1,1,0
+,variation,sh40-series-014,sh40-series,0,Type,SH 4016-25 2/1 *3,1,0,Capaciteit (kg),3200,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,2/1 *3,1,0
+,variation,sh40-series-015,sh40-series,0,Type,SH 4010-25 4/1,1,0,Capaciteit (kg),4000,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/1,1,0
+,variation,sh40-series-016,sh40-series,0,Type,SH 4010-40 4/1,1,0,Capaciteit (kg),4000,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/1,1,0
+,variation,sh40-series-017,sh40-series,0,Type,SH 4012-20 4/1,1,0,Capaciteit (kg),5000,1,0,Snelheid (m/min),"0,8/5",1,0,Parten,4/1,1,0
+,variation,sh40-series-018,sh40-series,0,Type,SH 4012-32 4/1,1,0,Capaciteit (kg),5000,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,4/1,1,0
+,variation,sh40-series-019,sh40-series,0,Type,SH 4016-16 4/1,1,0,Capaciteit (kg),6300,1,0,Snelheid (m/min),"0,6/4",1,0,Parten,4/1,1,0
+,variation,sh40-series-020,sh40-series,0,Type,SH 4016-25 4/1,1,0,Capaciteit (kg),6300,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/1,1,0
+,variation,sh40-series-021,sh40-series,0,Type,SH 4008-20 2/2-1 *2,1,0,Capaciteit (kg),800,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-1 *2,1,0
+,variation,sh40-series-022,sh40-series,0,Type,SH 4010-20 2/2-1 *2,1,0,Capaciteit (kg),1000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-1 *2,1,0
+,variation,sh40-series-023,sh40-series,0,Type,SH 4012-20 2/2-1 *2,1,0,Capaciteit (kg),1250,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-1 *2,1,0
+,variation,sh40-series-024,sh40-series,0,Type,SH 4008-25 4/2-1,1,0,Capaciteit (kg),1600,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-1,1,0
+,variation,sh40-series-025,sh40-series,0,Type,SH 4008-40 4/2-1,1,0,Capaciteit (kg),1600,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-1,1,0
+,variation,sh40-series-026,sh40-series,0,Type,SH 4016-16 2/2-1 *2,1,0,Capaciteit (kg),1600,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/2-1 *2,1,0
+,variation,sh40-series-027,sh40-series,0,Type,SH 4010-25 4/2-1,1,0,Capaciteit (kg),2000,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-1,1,0
+,variation,sh40-series-028,sh40-series,0,Type,SH 4010-40 4/2-1,1,0,Capaciteit (kg),2000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-1,1,0
+,variation,sh40-series-029,sh40-series,0,Type,SH 4012-20 4/2-1,1,0,Capaciteit (kg),2500,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/2-1,1,0
+,variation,sh40-series-030,sh40-series,0,Type,SH 4012-32 4/2-1,1,0,Capaciteit (kg),2500,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,4/2-1,1,0
+,variation,sh40-series-031,sh40-series,0,Type,SH 4016-16 4/2-1,1,0,Capaciteit (kg),3200,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,4/2-1,1,0
+,variation,sh40-series-032,sh40-series,0,Type,SH 4016-25 4/2-1,1,0,Capaciteit (kg),3200,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-1,1,0
+,variation,sh40-series-033,sh40-series,0,Type,SH 4008-20 2/2-2,1,0,Capaciteit (kg),2x 400,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-2,1,0
+,variation,sh40-series-034,sh40-series,0,Type,SH 4010-20 2/2-2,1,0,Capaciteit (kg),2x 500,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-2,1,0
+,variation,sh40-series-035,sh40-series,0,Type,SH 4012-20 2/2-2,1,0,Capaciteit (kg),2x 630,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-2,1,0
+,variation,sh40-series-036,sh40-series,0,Type,SH 4008-25 4/2-2,1,0,Capaciteit (kg),2x 800,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-2,1,0
+,variation,sh40-series-037,sh40-series,0,Type,SH 4008-40 4/2-2,1,0,Capaciteit (kg),2x 800,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-2,1,0
+,variation,sh40-series-038,sh40-series,0,Type,SH 4016-16 2/2-2,1,0,Capaciteit (kg),2x 800,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/2-2,1,0
+,variation,sh40-series-039,sh40-series,0,Type,SH 4010-25 4/2-2,1,0,Capaciteit (kg),2x 1000,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-2,1,0
+,variation,sh40-series-040,sh40-series,0,Type,SH 4010-40 4/2-2,1,0,Capaciteit (kg),2x 1000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-2,1,0
+,variation,sh40-series-041,sh40-series,0,Type,SH 4012-20 4/2-2,1,0,Capaciteit (kg),2x 1250,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/2-2,1,0
+,variation,sh40-series-042,sh40-series,0,Type,SH 4012-32 4/2-2,1,0,Capaciteit (kg),2x 1250,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,4/2-2,1,0
+,variation,sh40-series-043,sh40-series,0,Type,SH 4016-16 4/2-2,1,0,Capaciteit (kg),2x 1600,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,4/2-2,1,0
+,variation,sh40-series-044,sh40-series,0,Type,SH 4016-25 4/2-2,1,0,Capaciteit (kg),2x 1600,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-2,1,0
+,variation,sh50-series-001,sh50-series,0,Type,"SH 5016-20 1/1 *2,3",1,0,Capaciteit (kg),1600,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,"1/1 *2,3",1,0
+,variation,sh50-series-002,sh50-series,0,Type,"SH 5020-20 1/1 *2,3",1,0,Capaciteit (kg),2.000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,"1/1 *2,3",1,0
+,variation,sh50-series-003,sh50-series,0,Type,"SH 5025-20 1/1 *2,3",1,0,Capaciteit (kg),2.500,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,"1/1 *2,3",1,0
+,variation,sh50-series-004,sh50-series,0,Type,SH 5016-25 2/1,1,0,Capaciteit (kg),3200,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,2/1,1,0
+,variation,sh50-series-005,sh50-series,0,Type,SH 5016-40 2/1 *3,1,0,Capaciteit (kg),3200,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/1 *3,1,0
+,variation,sh50-series-006,sh50-series,0,Type,"SH 5032-16 1/1 *2,3",1,0,Capaciteit (kg),3200,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,"1/1 *2,3",1,0
+,variation,sh50-series-007,sh50-series,0,Type,SH 5020-25 2/1,1,0,Capaciteit (kg),4000,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,2/1,1,0
+,variation,sh50-series-008,sh50-series,0,Type,SH 5020-40 2/1 *3,1,0,Capaciteit (kg),4000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/1 *3,1,0
+,variation,sh50-series-009,sh50-series,0,Type,SH 5025-20 2/1,1,0,Capaciteit (kg),5000,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,2/1,1,0
+,variation,sh50-series-010,sh50-series,0,Type,SH 5025-32 2/1 *3,1,0,Capaciteit (kg),5000,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/1 *3,1,0
+,variation,sh50-series-011,sh50-series,0,Type,SH 5016-25 4/1,1,0,Capaciteit (kg),6300,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/1,1,0
+,variation,sh50-series-012,sh50-series,0,Type,SH 5016-40 4/1,1,0,Capaciteit (kg),6300,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/1,1,0
+,variation,sh50-series-013,sh50-series,0,Type,SH 5032-25 2/1,1,0,Capaciteit (kg),6300,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,2/1,1,0
+,variation,sh50-series-014,sh50-series,0,Type,SH 5020-25 4/1,1,0,Capaciteit (kg),8000,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/1,1,0
+,variation,sh50-series-015,sh50-series,0,Type,SH 5020-40 4/1,1,0,Capaciteit (kg),8000,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/1,1,0
+,variation,sh50-series-016,sh50-series,0,Type,SH 5025-20 4/1,1,0,Capaciteit (kg),10000,1,0,Snelheid (m/min),"0,8/5",1,0,Parten,4/1,1,0
+,variation,sh50-series-017,sh50-series,0,Type,SH 5025-32 4/1,1,0,Capaciteit (kg),10000,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,4/1,1,0
+,variation,sh50-series-018,sh50-series,0,Type,SH 5032-25 4/1,1,0,Capaciteit (kg),12500,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/1,1,0
+,variation,sh50-series-019,sh50-series,0,Type,SH 5016-20 2/2-1 *2,1,0,Capaciteit (kg),1600,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-1 *2,1,0
+,variation,sh50-series-020,sh50-series,0,Type,SH 5020-20 2/2-1 *2,1,0,Capaciteit (kg),2000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-1 *2,1,0
+,variation,sh50-series-021,sh50-series,0,Type,SH 5025-20 2/2-1 *2,1,0,Capaciteit (kg),2500,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-1 *2,1,0
+,variation,sh50-series-022,sh50-series,0,Type,SH 5016-25 4/2-1,1,0,Capaciteit (kg),3200,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-1,1,0
+,variation,sh50-series-023,sh50-series,0,Type,SH 5016-40 4/2-1,1,0,Capaciteit (kg),3200,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-2,1,0
+,variation,sh50-series-024,sh50-series,0,Type,SH 5032-16 2/2-1 *2,1,0,Capaciteit (kg),3200,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/2-1 *2,1,0
+,variation,sh50-series-025,sh50-series,0,Type,SH 5020-25 4/2-1,1,0,Capaciteit (kg),4000,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-1,1,0
+,variation,sh50-series-026,sh50-series,0,Type,SH 5020-40 4/2-1,1,0,Capaciteit (kg),4000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-1,1,0
+,variation,sh50-series-027,sh50-series,0,Type,SH 5025-20 4/2-1,1,0,Capaciteit (kg),5000,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/2-1,1,0
+,variation,sh50-series-028,sh50-series,0,Type,SH 5025-32 4/2-1,1,0,Capaciteit (kg),5000,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,4/2-1,1,0
+,variation,sh50-series-029,sh50-series,0,Type,SH 5032-25 4/2-1,1,0,Capaciteit (kg),6300,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-1,1,0
+,variation,sh50-series-030,sh50-series,0,Type,SH 5016-20 2/2-2,1,0,Capaciteit (kg),2x 800,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-2,1,0
+,variation,sh50-series-031,sh50-series,0,Type,SH 5020-20 2/2-2,1,0,Capaciteit (kg),2x 1000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-2,1,0
+,variation,sh50-series-032,sh50-series,0,Type,SH 5025-20 2/2-2,1,0,Capaciteit (kg),2x 1250,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-2,1,0
+,variation,sh50-series-033,sh50-series,0,Type,SH 5016-25 4/2-2,1,0,Capaciteit (kg),2x 1600,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-2,1,0
+,variation,sh50-series-034,sh50-series,0,Type,SH 5016-40 4/2-2,1,0,Capaciteit (kg),2x 1600,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-2,1,0
+,variation,sh50-series-035,sh50-series,0,Type,SH 5032-16 2/2-2,1,0,Capaciteit (kg),2x 1600,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/2-2,1,0
+,variation,sh50-series-036,sh50-series,0,Type,SH 5020-25 4/2-2,1,0,Capaciteit (kg),2x 2000,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-2,1,0
+,variation,sh50-series-037,sh50-series,0,Type,SH 5020-40 4/2-2,1,0,Capaciteit (kg),2x 2000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-2,1,0
+,variation,sh50-series-038,sh50-series,0,Type,SH 5025-20 4/2-2,1,0,Capaciteit (kg),2x 2500,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/2-2,1,0
+,variation,sh50-series-039,sh50-series,0,Type,SH 5025-32 4/2-2,1,0,Capaciteit (kg),2x 2500,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,4/2-2,1,0
+,variation,sh50-series-040,sh50-series,0,Type,SH 5032-25 4/2-2,1,0,Capaciteit (kg),2x 3200,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-2,1,0
+,variation,sh60-series-001,sh60-series,0,Type,SH 6040-12 1/1,1,0,Capaciteit (kg),4000,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,1/1,1,0
+,variation,sh60-series-002,sh60-series,0,Type,SH 6040-20 1/1 *3,1,0,Capaciteit (kg),4000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,1/1,1,0
+,variation,sh60-series-003,sh60-series,0,Type,SHR 6025-20 2/1,1,0,Capaciteit (kg),5000,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,2/1,1,0
+,variation,sh60-series-004,sh60-series,0,Type,SHR 6025-32 2/1 *3,1,0,Capaciteit (kg),5000,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/1,1,0
+,variation,sh60-series-005,sh60-series,0,Type,SHR 6025-40 2/1 *3,1,0,Capaciteit (kg),5000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/1,1,0
+,variation,sh60-series-006,sh60-series,0,Type,SH 6050-16 1/1 *3,1,0,Capaciteit (kg),5000,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,1/1,1,0
+,variation,sh60-series-007,sh60-series,0,Type,SH 6050-20 1/1 *3,1,0,Capaciteit (kg),5000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,1/1,1,0
+,variation,sh60-series-008,sh60-series,0,Type,SHR 6032-16 2/1,1,0,Capaciteit (kg),6.300,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,2/1,1,0
+,variation,sh60-series-009,sh60-series,0,Type,SHR 6032-25 2/1,1,0,Capaciteit (kg),6.300,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,2/1,1,0
+,variation,sh60-series-010,sh60-series,0,Type,SHR 6032-40 2/1 *3,1,0,Capaciteit (kg),6.300,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/1,1,0
+,variation,sh60-series-011,sh60-series,0,Type,SH 6063-12 1/1,1,0,Capaciteit (kg),6.300,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,1/1,1,0
+,variation,sh60-series-012,sh60-series,0,Type,SH 6063-20 1/1 *3,1,0,Capaciteit (kg),6.300,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,1/1,1,0
+,variation,sh60-series-013,sh60-series,0,Type,SHR 6040-12 2/1,1,0,Capaciteit (kg),8.000,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,2/1,1,0
+,variation,sh60-series-014,sh60-series,0,Type,SHR 6040-20 2/1,1,0,Capaciteit (kg),8.000,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,2/1,1,0
+,variation,sh60-series-015,sh60-series,0,Type,SHR 6040-32 2/1 *3,1,0,Capaciteit (kg),8.000,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/1,1,0
+,variation,sh60-series-016,sh60-series,0,Type,SH 6040-12 2/1,1,0,Capaciteit (kg),8.000,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,2/1,1,0
+,variation,sh60-series-017,sh60-series,0,Type,SH 6040-20 2/1,1,0,Capaciteit (kg),8.000,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,2/1,1,0
+,variation,sh60-series-018,sh60-series,0,Type,SH 6040-32 2/1 *3,1,0,Capaciteit (kg),8.000,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/1,1,0
+,variation,sh60-series-019,sh60-series,0,Type,SHR 6025-20 4/1,1,0,Capaciteit (kg),10.000,1,0,Snelheid (m/min),"0,8/5",1,0,Parten,4/1,1,0
+,variation,sh60-series-020,sh60-series,0,Type,SHR 6025-32 4/1,1,0,Capaciteit (kg),10.000,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,4/1,1,0
+,variation,sh60-series-021,sh60-series,0,Type,SHR 6025-40 4/1,1,0,Capaciteit (kg),10.000,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/1,1,0
+,variation,sh60-series-022,sh60-series,0,Type,SH 6050-16 2/1,1,0,Capaciteit (kg),10.000,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,2/1,1,0
+,variation,sh60-series-023,sh60-series,0,Type,SH 6050-25 2/1,1,0,Capaciteit (kg),10.000,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,2/1,1,0
+,variation,sh60-series-024,sh60-series,0,Type,SH 6050-32 2/1 *3,1,0,Capaciteit (kg),10.000,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/1,1,0
+,variation,sh60-series-025,sh60-series,0,Type,SH 6050-40 2/1 *3,1,0,Capaciteit (kg),10.000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/1,1,0
+,variation,sh60-series-026,sh60-series,0,Type,SHR 6032-16 4/1,1,0,Capaciteit (kg),12.500,1,0,Snelheid (m/min),"0,6/4",1,0,Parten,4/1,1,0
+,variation,sh60-series-027,sh60-series,0,Type,SHR 6032-25 4/1,1,0,Capaciteit (kg),12.500,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/1,1,0
+,variation,sh60-series-028,sh60-series,0,Type,SHR 6032-40 4/1,1,0,Capaciteit (kg),12.500,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/1,1,0
+,variation,sh60-series-029,sh60-series,0,Type,SH 6063-12 2/1,1,0,Capaciteit (kg),12.500,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,2/1,1,0
+,variation,sh60-series-030,sh60-series,0,Type,SH 6063-20 2/1,1,0,Capaciteit (kg),12.500,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,2/1,1,0
+,variation,sh60-series-031,sh60-series,0,Type,SH 6063-25 2/1,1,0,Capaciteit (kg),12.500,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,2/1,1,0
+,variation,sh60-series-032,sh60-series,0,Type,SH 6063-32 2/1 *3,1,0,Capaciteit (kg),12.500,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/1,1,0
+,variation,sh60-series-033,sh60-series,0,Type,SHR 6040-12 4/1,1,0,Capaciteit (kg),16.000,1,0,Snelheid (m/min),"0,5/3,1",1,0,Parten,4/1,1,0
+,variation,sh60-series-034,sh60-series,0,Type,SHR 6040-20 4/1,1,0,Capaciteit (kg),16.000,1,0,Snelheid (m/min),"0,8/5",1,0,Parten,4/1,1,0
+,variation,sh60-series-035,sh60-series,0,Type,SHR 6040-32 4/1,1,0,Capaciteit (kg),16.000,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,4/1,1,0
+,variation,sh60-series-036,sh60-series,0,Type,SH 6040-12 4/1 *2,1,0,Capaciteit (kg),16.000,1,0,Snelheid (m/min),"0,5/3,1",1,0,Parten,4/1,1,0
+,variation,sh60-series-037,sh60-series,0,Type,SH 6040-20 4/1 *2,1,0,Capaciteit (kg),16.000,1,0,Snelheid (m/min),"0,8/5",1,0,Parten,4/1,1,0
+,variation,sh60-series-038,sh60-series,0,Type,SH 6040-32 4/1 *2,1,0,Capaciteit (kg),16.000,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,4/1,1,0
+,variation,sh60-series-039,sh60-series,0,Type,SH 6050-16 4/1 *2,1,0,Capaciteit (kg),20.000,1,0,Snelheid (m/min),"0,6/4",1,0,Parten,4/1,1,0
+,variation,sh60-series-040,sh60-series,0,Type,SH 6050-25 4/1 *2,1,0,Capaciteit (kg),20.000,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/1,1,0
+,variation,sh60-series-041,sh60-series,0,Type,SH 6050-32 4/1 *2,1,0,Capaciteit (kg),20.000,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,4/1,1,0
+,variation,sh60-series-042,sh60-series,0,Type,SH 6050-40 4/1 *2,1,0,Capaciteit (kg),20.000,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/1,1,0
+,variation,sh60-series-043,sh60-series,0,Type,SH 6063-12 4/1 *2,1,0,Capaciteit (kg),25.000,1,0,Snelheid (m/min),"0,5/3,1",1,0,Parten,4/1,1,0
+,variation,sh60-series-044,sh60-series,0,Type,SH 6063-20 4/1 *2,1,0,Capaciteit (kg),25.000,1,0,Snelheid (m/min),"0,8/5",1,0,Parten,4/1,1,0
+,variation,sh60-series-045,sh60-series,0,Type,SH 6063-25 4/1 *2,1,0,Capaciteit (kg),25.000,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/1,1,0
+,variation,sh60-series-046,sh60-series,0,Type,SH 6063-32 4/1 *2,1,0,Capaciteit (kg),25.000,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,4/1,1,0
+,variation,sh60-series-047,sh60-series,0,Type,SH 6080-10 4/1,1,0,Capaciteit (kg),32.000,1,0,Snelheid (m/min),"0,4/2,5",1,0,Parten,4/1,1,0
+,variation,sh60-series-048,sh60-series,0,Type,SH 6080-16 4/1,1,0,Capaciteit (kg),32.000,1,0,Snelheid (m/min),"0,6/4",1,0,Parten,4/1,1,0
+,variation,sh60-series-049,sh60-series,0,Type,SH 6080-20 4/1,1,0,Capaciteit (kg),32.000,1,0,Snelheid (m/min),"0,8/5",1,0,Parten,4/1,1,0
+,variation,sh60-series-050,sh60-series,0,Type,SH 6040-12 2/2-1,1,0,Capaciteit (kg),4.000,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,2/2-1,1,0
+,variation,sh60-series-051,sh60-series,0,Type,SH 6040-20 2/2-1,1,0,Capaciteit (kg),4.000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-1,1,0
+,variation,sh60-series-052,sh60-series,0,Type,SH 6025-20 4/2-1,1,0,Capaciteit (kg),5.000,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-053,sh60-series,0,Type,SH 6025-32 4/2-1,1,0,Capaciteit (kg),5.000,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-054,sh60-series,0,Type,SH 6025-40 4/2-1,1,0,Capaciteit (kg),5.000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-055,sh60-series,0,Type,SH 6050-16 2/2-1,1,0,Capaciteit (kg),5.000,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/2-1,1,0
+,variation,sh60-series-056,sh60-series,0,Type,SH 6050-20 2/2-1,1,0,Capaciteit (kg),5.000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-1,1,0
+,variation,sh60-series-057,sh60-series,0,Type,SH 6032-16 4/2-1,1,0,Capaciteit (kg),6.300,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-058,sh60-series,0,Type,SH 6032-25 4/2-1,1,0,Capaciteit (kg),6.300,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-059,sh60-series,0,Type,SH 6032-40 4/2-1,1,0,Capaciteit (kg),6.300,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-060,sh60-series,0,Type,SH 6063-12 2/2-1,1,0,Capaciteit (kg),6.300,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,2/2-1,1,0
+,variation,sh60-series-061,sh60-series,0,Type,SH 6063-20 2/2-1,1,0,Capaciteit (kg),6.300,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-1,1,0
+,variation,sh60-series-062,sh60-series,0,Type,SH 6040-12 4/2-1,1,0,Capaciteit (kg),8.000,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-063,sh60-series,0,Type,SH 6040-20 4/2-1,1,0,Capaciteit (kg),8.000,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-064,sh60-series,0,Type,SH 6040-32 4/2-1,1,0,Capaciteit (kg),8.000,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-065,sh60-series,0,Type,SH 6050-16 4/2-1,1,0,Capaciteit (kg),10.000,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-066,sh60-series,0,Type,SH 6050-25 4/2-1,1,0,Capaciteit (kg),10.000,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-067,sh60-series,0,Type,SH 6050-32 4/2-1,1,0,Capaciteit (kg),10.000,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-068,sh60-series,0,Type,SH 6050-40 4/2-1,1,0,Capaciteit (kg),10.000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-069,sh60-series,0,Type,SH 6063-12 4/2-1,1,0,Capaciteit (kg),12.500,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-070,sh60-series,0,Type,SH 6063-20 4/2-1,1,0,Capaciteit (kg),12.500,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-071,sh60-series,0,Type,SH 6063-25 4/2-1,1,0,Capaciteit (kg),12.500,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-072,sh60-series,0,Type,SH 6063-32 4/2-1,1,0,Capaciteit (kg),12.500,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,4/2-1,1,0
+,variation,sh60-series-073,sh60-series,0,Type,SH 6040-12 8/2-1,1,0,Capaciteit (kg),16.000,1,0,Snelheid (m/min),"0,5/3,1",1,0,Parten,8/2-1,1,0
+,variation,sh60-series-074,sh60-series,0,Type,SH 6040-20 8/2-1,1,0,Capaciteit (kg),16.000,1,0,Snelheid (m/min),"0,8/5",1,0,Parten,8/2-1,1,0
+,variation,sh60-series-075,sh60-series,0,Type,SH 6040-32 8/2-1,1,0,Capaciteit (kg),16.000,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,8/2-1,1,0
+,variation,sh60-series-076,sh60-series,0,Type,SH 6050-16 8/2-1,1,0,Capaciteit (kg),20.000,1,0,Snelheid (m/min),"0,6/4",1,0,Parten,8/2-1,1,0
+,variation,sh60-series-077,sh60-series,0,Type,SH 6050-25 8/2-1,1,0,Capaciteit (kg),20.000,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,8/2-1,1,0
+,variation,sh60-series-078,sh60-series,0,Type,SH 6050-32 8/2-1,1,0,Capaciteit (kg),20.000,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,8/2-1,1,0
+,variation,sh60-series-079,sh60-series,0,Type,SH 6050-40 8/2-1,1,0,Capaciteit (kg),20.000,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,8/2-1,1,0
+,variation,sh60-series-080,sh60-series,0,Type,SH 6063-12 8/2-1,1,0,Capaciteit (kg),25.000,1,0,Snelheid (m/min),"0,5/3,1",1,0,Parten,8/2-1,1,0
+,variation,sh60-series-081,sh60-series,0,Type,SH 6063-20 8/2-1,1,0,Capaciteit (kg),25.000,1,0,Snelheid (m/min),"0,8/5",1,0,Parten,8/2-1,1,0
+,variation,sh60-series-082,sh60-series,0,Type,SH 6063-25 8/2-1,1,0,Capaciteit (kg),25.000,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,8/2-1,1,0
+,variation,sh60-series-083,sh60-series,0,Type,SH 6063-32 8/2-1,1,0,Capaciteit (kg),25.000,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,8/2-1,1,0
+,variation,sh60-series-084,sh60-series,0,Type,SH 6025-20 2/2-2,1,0,Capaciteit (kg),2x 1250,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-2,1,0
+,variation,sh60-series-085,sh60-series,0,Type,SH 6032-16 2/2-2,1,0,Capaciteit (kg),2x 1600,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/2-2,1,0
+,variation,sh60-series-086,sh60-series,0,Type,SH 6032-25 2/2-2,1,0,Capaciteit (kg),2x 1600,1,0,Snelheid (m/min),"4,1/25",1,0,Parten,2/2-2,1,0
+,variation,sh60-series-087,sh60-series,0,Type,SH 6040-12 2/2-2,1,0,Capaciteit (kg),2x 2000,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,2/2-2,1,0
+,variation,sh60-series-088,sh60-series,0,Type,SH 6040-20 2/2-2,1,0,Capaciteit (kg),2x 2000,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-2,1,0
+,variation,sh60-series-089,sh60-series,0,Type,SH 6025-20 4/2-2,1,0,Capaciteit (kg),2x 2.500,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/2-2,1,0
+,variation,sh60-series-090,sh60-series,0,Type,SH 6025-32 4/2-2,1,0,Capaciteit (kg),2x 2.500,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,4/2-2,1,0
+,variation,sh60-series-091,sh60-series,0,Type,SH 6025-40 4/2-2,1,0,Capaciteit (kg),2x 2.500,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-2,1,0
+,variation,sh60-series-092,sh60-series,0,Type,SH 6050-16 2/2-2,1,0,Capaciteit (kg),2x 2.500,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,2/2-2,1,0
+,variation,sh60-series-093,sh60-series,0,Type,SH 6050-20 2/2-2,1,0,Capaciteit (kg),2x 2.500,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-2,1,0
+,variation,sh60-series-094,sh60-series,0,Type,SH 6032-16 4/2-2,1,0,Capaciteit (kg),2x 3.200,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,4/2-2,1,0
+,variation,sh60-series-095,sh60-series,0,Type,SH 6032-25 4/2-2,1,0,Capaciteit (kg),2x 3.200,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-2,1,0
+,variation,sh60-series-096,sh60-series,0,Type,SH 6032-40 4/2-2,1,0,Capaciteit (kg),2x 3.200,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,4/2-2,1,0
+,variation,sh60-series-097,sh60-series,0,Type,SH 6063-12 2/2-2,1,0,Capaciteit (kg),2x 3.200,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,2/2-2,1,0
+,variation,sh60-series-098,sh60-series,0,Type,SH 6063-20 2/2-2,1,0,Capaciteit (kg),2x 3.200,1,0,Snelheid (m/min),"3,3/20",1,0,Parten,2/2-2,1,0
+,variation,sh60-series-099,sh60-series,0,Type,SH 6040-12 4/2-2,1,0,Capaciteit (kg),2x 4.000,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/2-2,1,0
+,variation,sh60-series-100,sh60-series,0,Type,SH 6040-20 4/2-2,1,0,Capaciteit (kg),2x 4.000,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/2-2,1,0
+,variation,sh60-series-101,sh60-series,0,Type,SH 6040-32 4/2-2,1,0,Capaciteit (kg),2x 4.000,1,0,Snelheid (m/min),"2,6/16",1,0,Parten,4/2-2,1,0
+,variation,sh60-series-102,sh60-series,0,Type,SH 6050-16 4/2-2,1,0,Capaciteit (kg),2x 5.000,1,0,Snelheid (m/min),"1,3/8",1,0,Parten,4/2-2,1,0
+,variation,sh60-series-103,sh60-series,0,Type,SH 6050-25 4/2-2,1,0,Capaciteit (kg),2x 5.000,1,0,Snelheid (m/min),"2/12,5",1,0,Parten,4/2-2,1,0
+,variation,sh60-series-104,sh60-series,0,Type,SH 6063-12 4/2-2,1,0,Capaciteit (kg),2x 6.300,1,0,Snelheid (m/min),"1/6,3",1,0,Parten,4/2-2,1,0
+,variation,sh60-series-105,sh60-series,0,Type,SH 6063-20 4/2-2,1,0,Capaciteit (kg),2x 6.300,1,0,Snelheid (m/min),"1,6/10",1,0,Parten,4/2-2,1,0
