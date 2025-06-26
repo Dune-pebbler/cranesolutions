@@ -19,7 +19,7 @@ function get_top_level_product_categories()
     ];
 
     $categories = get_terms($args);
-    
+
     if (is_wp_error($categories)) {
         return [];
     }
@@ -58,7 +58,7 @@ function get_product_brands()
     ];
 
     $brands = get_terms($args);
-    
+
     if (is_wp_error($brands)) {
         return [];
     }
@@ -108,7 +108,7 @@ $shop_page_url = get_permalink(wc_get_page_id('shop'));
                     $thumbnail_id = get_term_meta($category->term_id, 'thumbnail_id', true);
                     $image = wp_get_attachment_image_src($thumbnail_id, 'large');
                     $image_url = $image ? $image[0] : wc_placeholder_img_src('large');
-                    $category_link = home_url('/product-filter/?category=' . $category->term_id . '&orderby=date');
+                    $category_link = wc_get_page_permalink('shop') . '?category=' . $category->term_id . '&orderby=date';
                 ?>
                     <div class="col-md-6 col-lg-3 mb-4">
                         <a href="<?php echo esc_url($category_link); ?>" class="card-link">
@@ -157,7 +157,7 @@ $shop_page_url = get_permalink(wc_get_page_id('shop'));
                     }
                     $image = wp_get_attachment_image_src($thumbnail_id, 'large');
                     $image_url = $image ? $image[0] : wc_placeholder_img_src('large');
-                    $brand_link = home_url('/product-filter/?brand=' . $brand->term_id . '&orderby=date');
+                    $brand_link = wc_get_page_permalink('shop') . '?brand=' . $brand->term_id . '&orderby=date';
                 ?>
                     <div class="col-md-6 col-lg-3 mb-4">
                         <a href="<?php echo esc_url($brand_link); ?>" class="card-link">

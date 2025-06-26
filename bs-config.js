@@ -1,5 +1,5 @@
 module.exports = {
-    proxy: "https://crane.dune-pebbler.nl/", // Use your live site's URL
+    proxy: "https://cranesolutions.local/", // Use your live site's URL
     files: ["**/*"], // Watch all files in the project
     watchOptions: {
       ignoreInitial: false, // Prevent triggering on startup
@@ -9,7 +9,6 @@ module.exports = {
     reloadDelay: 0, // Add delay to allow SFTP uploads to complete
     port: 3000, // This will still be used locally for proxying purposes
   };
-
 
   
   // browser-sync start --config bs-config.js

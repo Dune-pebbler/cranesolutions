@@ -39,13 +39,34 @@ $thumbnail_data = wp_get_attachment_image_src($thumbnail_id, 'full');
 
 $svg_html = '';
 if ($thumbnail_data && strtolower(pathinfo($thumbnail_data[0], PATHINFO_EXTENSION)) === 'svg') {
-    $svg_content = file_get_contents($thumbnail_data[0]);
-    $svg_html = '<div class="icon">' . $svg_content . '</div>';
+    $svg_content = '';
+    
+    $upload_dir = wp_upload_dir();
+    $relative_path = str_replace($upload_dir['baseurl'], '', $thumbnail_data[0]);
+    $local_file_path = $upload_dir['basedir'] . $relative_path;
+    
+    if (file_exists($local_file_path)) {
+        $svg_content = file_get_contents($local_file_path);
+    } else {
+        $context = stream_context_create([
+            'http' => [
+                'timeout' => 5,
+                'ignore_errors' => true
+            ]
+        ]);
+        
+        $svg_content = @file_get_contents($thumbnail_data[0], false, $context);
+    }
+    
+    if ($svg_content && !empty(trim($svg_content))) {
+        $svg_html = '<div class="icon">' . $svg_content . '</div>';
+    } else {
+        $svg_html = '<div class="icon">' . get_the_post_thumbnail(get_the_ID(), 'full', ['class' => 'custom-thumbnail-class']) . '</div>';
+    }
 } else {
     $svg_html = '<div class="icon">' . get_the_post_thumbnail(get_the_ID(), 'full', ['class' => 'custom-thumbnail-class']) . '</div>';
 }
 
-// Determine column class based on layout
 if (!isset($GLOBALS['is_shop_layout'])) {
     $GLOBALS['is_shop_layout'] = is_shop();
 }

@@ -6,6 +6,7 @@ define('THEME_PATH', get_template_directory());
 define('THEME_URL', get_template_directory_uri());
 define('THEME_TD', sanitize_title(get_bloginfo("title")));
 
+
 # REQUIRES
 // include("blocks/init.php");
 require_once("capacity-taxonomy.php");
@@ -14,11 +15,8 @@ require_once("theme-options/init.php");
 require_once("shortcodes/shortcodes.php");
 require_once("metaboxes/metaboxes.php");
 require_once("category-variation-manager.php");
-require_once("cart-to-gravityform-hook.php");
 require_once("product-filters.php");
 require_once("cart-to-gravityform-hook.php");
-
-
 
 # ACTIONS
 add_action('admin_enqueue_scripts', 'ds_admin_theme_style');
@@ -30,6 +28,14 @@ add_action('enqueue_block_editor_assets', 'theme_enqueue_gluten_scripts');
 
 add_action('wp_ajax_filter_projects', 'filter_projects');
 add_action('wp_ajax_nopriv_filter_projects', 'filter_projects');
+
+add_action('gform_after_submission', 'leeg_winkelwagen_na_formulier', 10, 2);
+add_action('init', function() {
+    if (!headers_sent()) {
+        header('Content-Type: text/html; charset=UTF-8');
+    }
+});
+
 
 # FILTERS
 add_filter('wp_page_menu_args', 'home_page_menu_args');
@@ -97,6 +103,15 @@ function get_meta($name, $id = false, $is_single_meta = true)
   $id = !$id ? get_the_ID() : $id;
 
   return get_post_meta($id, $name, $is_single_meta);
+}
+
+function leeg_winkelwagen_na_formulier($entry, $form) {
+    // Form ID 5 is het juiste formulier
+    if ($form['id'] == 5 && class_exists('WC_Cart') && function_exists('WC')) {
+        if (WC()->cart) {
+            WC()->cart->empty_cart();
+        }
+    }
 }
 
 function theme_enqueue_gluten_scripts()
