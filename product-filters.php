@@ -2,8 +2,7 @@
 
 /**
  * Product Filtering Functions
- * 
- * Contains all functionality related to product filtering on the shop page
+ * * Contains all functionality related to product filtering on the shop page
  */
 
 
@@ -129,6 +128,11 @@ function get_product_capacities_for_filter()
     $selected_category = isset($_GET['category']) ? intval($_GET['category']) : 0;
 
     $capacities = get_terms($args);
+
+    // Sort capacities numerically
+    usort($capacities, function($a, $b) {
+        return intval($a->name) - intval($b->name);
+    });
 
     if (!$selected_category) {
         return array_filter($capacities, function ($capacity) {
@@ -415,6 +419,11 @@ function get_filtered_capacities_ajax()
         'hide_empty' => false,
         'parent' => 0
     ]);
+    
+    // Sort capacities numerically
+    usort($capacities, function($a, $b) {
+        return intval($a->name) - intval($b->name);
+    });
 
     if ($category_id <= 0) {
         $filtered_capacities = array_filter($capacities, function ($capacity) {
