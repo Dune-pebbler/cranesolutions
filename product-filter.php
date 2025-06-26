@@ -128,7 +128,7 @@ function get_product_capacities_for_filter()
     $selected_category = isset($_GET['category']) ? intval($_GET['category']) : 0;
 
     $capacities = get_terms($args);
-    
+
     // Sort capacities numerically
     usort($capacities, function($a, $b) {
         return intval($a->name) - intval($b->name);
