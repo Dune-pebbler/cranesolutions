@@ -1,0 +1,9 @@
+Model,Verplaatsing (cm³),Reservoir volume (l),Verplaatsing 1e fase (l/min),Verplaatsing 2e fase (l/min),Gewicht (kg)
+"HPS-1/0,7 A",single-stage,700,,2,7
+"HPS-2/0,3 A",two-stage,300,5,1,"3,5"
+"HPS-2/0,7 A",two-stage,700,11,2,7
+"HPS-2/1,3 A",two-stage,1300,11,2,9
+HPS-2/2 A,two-stage,2000,11,2,10
+HPS-2/4 A,two-stage,4000,11,2,13
+HPS-2/6 A,two-stage,6000,11,2,21
+HPS-2/10 A,two-stage,10000,11,2,27

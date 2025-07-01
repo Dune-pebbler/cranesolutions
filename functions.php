@@ -16,7 +16,6 @@ require_once("shortcodes/shortcodes.php");
 require_once("metaboxes/metaboxes.php");
 require_once("category-variation-manager.php");
 require_once("product-filters.php");
-require_once("cart-to-gravityform-hook.php");
 
 # ACTIONS
 add_action('admin_enqueue_scripts', 'ds_admin_theme_style');
@@ -45,6 +44,11 @@ add_filter('the_content', 'remove_thumbnail_dimensions', 10);
 add_filter('the_content', 'add_image_responsive_class');
 add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
 add_filter('excerpt_length', 'custom_excerpt_length');
+
+add_filter( 'gform_pre_render_5', 'populate_cart_in_gravity_form' );
+add_filter( 'gform_pre_validation_5', 'populate_cart_in_gravity_form' );
+add_filter( 'gform_pre_submission_filter_5', 'populate_cart_in_gravity_form' );
+add_filter( 'gform_admin_pre_render_5', 'populate_cart_in_gravity_form' );
 
 # THEME SUPPORTS
 add_theme_support('menus');
@@ -113,6 +117,53 @@ function leeg_winkelwagen_na_formulier($entry, $form) {
         }
     }
 }
+
+function populate_cart_in_gravity_form( $form ) {
+    if ( ! class_exists( 'WooCommerce' ) ) {
+        return $form;
+    }
+
+    foreach ( $form['fields'] as &$field ) {
+        if ( strpos( $field->cssClass, 'populate-cart' ) === false ) {
+            continue;
+        }
+
+        if ( is_admin() ) {
+            $field->defaultValue = 'Cart contents will be populated here.';
+            continue;
+        }
+
+        $cart_items = WC()->cart->get_cart();
+
+        if ( empty( $cart_items ) ) {
+            $field->defaultValue = 'The cart is empty.';
+            continue;
+        }
+
+        $cart_contents = "Products in Cart:\n\n";
+
+        foreach ( $cart_items as $cart_item_key => $cart_item ) {
+            $product = $cart_item['data'];
+            $product_name = $product->get_name();
+            $quantity = $cart_item['quantity'];
+            $price = wc_price( $product->get_price() );
+            $line_total = wc_price( $cart_item['line_total'] );
+
+            $cart_contents .= "Product: $product_name\n";
+            $cart_contents .= "Quantity: $quantity\n";
+            $cart_contents .= "Price: $price\n";
+            $cart_contents .= "Total: $line_total\n\n";
+        }
+
+        $cart_contents .= "----------------------------------\n";
+        $cart_contents .= "Cart Total: " . WC()->cart->get_cart_total() . "\n";
+
+        $field->defaultValue = $cart_contents;
+    }
+
+    return $form;
+}
+
 
 function theme_enqueue_gluten_scripts()
 {

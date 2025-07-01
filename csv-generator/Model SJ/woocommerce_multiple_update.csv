@@ -1,0 +1,6 @@
+ID,Type,SKU,Parent,Regular price,Attribute 1 name,Attribute 1 value(s),Attribute 1 visible,Attribute 1 global,Attribute 2 name,Attribute 2 value(s),Attribute 2 visible,Attribute 2 global,Attribute 3 name,Attribute 3 value(s),Attribute 3 visible,Attribute 3 global,Attribute 4 name,Attribute 4 value(s),Attribute 4 visible,Attribute 4 global
+,variable,SJ-MAIN,,,Model,"SJ 100, SJ 15, SJ 30, SJ 50",1,0,Capaciteit (kg),"10000, 1500, 3000, 5000",1,0,Hoogte (mm),"725, 730, 735, 800",1,0,Lift (mm),"350, 360, 410",1,0
+,variation,SJ-MAIN-001,SJ-MAIN,0,Model,SJ 15,1,0,Capaciteit (kg),1500,1,0,Hoogte (mm),725,1,0,Lift (mm),360,1,0
+,variation,SJ-MAIN-002,SJ-MAIN,0,Model,SJ 30,1,0,Capaciteit (kg),3000,1,0,Hoogte (mm),735,1,0,Lift (mm),360,1,0
+,variation,SJ-MAIN-003,SJ-MAIN,0,Model,SJ 50,1,0,Capaciteit (kg),5000,1,0,Hoogte (mm),730,1,0,Lift (mm),350,1,0
+,variation,SJ-MAIN-004,SJ-MAIN,0,Model,SJ 100,1,0,Capaciteit (kg),10000,1,0,Hoogte (mm),800,1,0,Lift (mm),410,1,0

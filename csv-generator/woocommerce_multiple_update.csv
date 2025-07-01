@@ -1,0 +1,9 @@
+ID,Type,SKU,Parent,Regular price,Attribute 1 name,Attribute 1 value(s),Attribute 1 visible,Attribute 1 global,Attribute 2 name,Attribute 2 value(s),Attribute 2 visible,Attribute 2 global,Attribute 3 name,Attribute 3 value(s),Attribute 3 visible,Attribute 3 global,Attribute 4 name,Attribute 4 value(s),Attribute 4 visible,Attribute 4 global
+,variable,TPM-MAIN,,,Model,"TPM 0,1, TPM 0,3, TPM 0,5, TPM 0,8, TPM 1,0, TPM 2,0, TPM 3,0",1,0,Art. -No.,"192019927, N56400001, N56400002, N56400003, N56400004, N56400005, N56400006",1,0,Capacity max. Flat material,"100, 1000, 2000, 300, 3000, 500, 800",1,0,Capacity max. Round material,"1000, 150, 1500, 250, 400, 50, 500",1,0
+,variation,TPM-MAIN-001,TPM-MAIN,0,Model,"TPM 0,1",1,0,Art. -No.,N56400001,1,0,Capacity max. Flat material,100,1,0,Capacity max. Round material,50,1,0
+,variation,TPM-MAIN-002,TPM-MAIN,0,Model,"TPM 0,3",1,0,Art. -No.,N56400002,1,0,Capacity max. Flat material,300,1,0,Capacity max. Round material,150,1,0
+,variation,TPM-MAIN-003,TPM-MAIN,0,Model,"TPM 0,5",1,0,Art. -No.,N56400003,1,0,Capacity max. Flat material,500,1,0,Capacity max. Round material,250,1,0
+,variation,TPM-MAIN-004,TPM-MAIN,0,Model,"TPM 0,8",1,0,Art. -No.,N56400004,1,0,Capacity max. Flat material,800,1,0,Capacity max. Round material,400,1,0
+,variation,TPM-MAIN-005,TPM-MAIN,0,Model,"TPM 1,0",1,0,Art. -No.,N56400005,1,0,Capacity max. Flat material,1000,1,0,Capacity max. Round material,500,1,0
+,variation,TPM-MAIN-006,TPM-MAIN,0,Model,"TPM 2,0",1,0,Art. -No.,N56400006,1,0,Capacity max. Flat material,2000,1,0,Capacity max. Round material,1000,1,0
+,variation,TPM-MAIN-007,TPM-MAIN,0,Model,"TPM 3,0",1,0,Art. -No.,192019927,1,0,Capacity max. Flat material,3000,1,0,Capacity max. Round material,1500,1,0
